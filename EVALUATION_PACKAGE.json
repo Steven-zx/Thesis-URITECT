@@ -1,0 +1,646 @@
+{
+  "version": "1.5.11+28",
+  "frozen_app_files_verified": 129,
+  "pipeline_modules": [
+    "focused_pad_geometry",
+    "markerless_strip",
+    "runtime_pad_features",
+    "semiquant_schema",
+    "specimen_grouping",
+    "test_final_pad_order",
+    "test_focused_pad_audit",
+    "vision_pipeline"
+  ],
+  "raw_research_data_included": false,
+  "signing_secrets_included": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "f42277362d4a1eb583282014e405fbf2905fc953ad0f1a040e6a10ad50e566ea"
+    },
+    {
+      "path": "README.md",
+      "sha256": "0e3d4a78c4ddb4ee507f9441b8bd2243565e4b1fd05d21008bd2e7c67ad02dfc"
+    },
+    {
+      "path": "docs/CLEAN_REPO_VERIFICATION.json",
+      "sha256": "e6ec8dd0bbbb401f5c0b77d03aa19e86fc126aba3bcee32338d6d41329341385"
+    },
+    {
+      "path": "docs/EVALUATION_GUIDE.md",
+      "sha256": "09480fcbb369946169bb68dc5a8c6a9c1046996fe5d6b28d3d5c1a1b3a8006bd"
+    },
+    {
+      "path": "docs/URITECT_EVALUATION_DEVICE_CHECKLIST.csv",
+      "sha256": "9dbb34a080e46b7d35771eaf56dfd3e152ae617c3e252be4865579ebeb1b3d69"
+    },
+    {
+      "path": "docs/URITECT_FINAL_PAD_ORDER.json",
+      "sha256": "e24f0423ab00549766eced2c06ef4bd7b0ab997277b69e546fd93d6fefca8f40"
+    },
+    {
+      "path": "docs/URITECT_FINAL_PAD_ORIENTATION.md",
+      "sha256": "bcba2acfb219f887e775dd7cc95e3ec137fb35b27472561c55ea5a7f62c2101a"
+    },
+    {
+      "path": "docs/URITECT_PHYSICAL_STRIP_PROTOCOL.md",
+      "sha256": "935272f002a5660eb07721c5bfb0f426b9639a3a7fd91ca11cd65ba66af32552"
+    },
+    {
+      "path": "docs/URITECT_SECURITY_AND_INPUT_REVIEW_2026-10-10.md",
+      "sha256": "857ac2b78f65369a0d952c9d8c85b8c42466ff04df051e4f0ed5d13478304a6a"
+    },
+    {
+      "path": "docs/URITECT_STATISTICAL_AND_EXPERT_REVIEW_PACKET.md",
+      "sha256": "88addc7f242863ac91ced6a3991bf8b626363cc69cd0bac4afae1269c57dc118"
+    },
+    {
+      "path": "docs/build/APK_IDENTITY.txt",
+      "sha256": "d20270caad237dbb114ff29dfa140500b7521e6f7cd56ce3e2d420a7c5ab1aee"
+    },
+    {
+      "path": "docs/build/APK_PERMISSIONS.txt",
+      "sha256": "2dde9eecbad5340347d8e684c4e92a9ea23e3d882a9b3f5049c47ad5783e1e60"
+    },
+    {
+      "path": "docs/build/EVALUATION_BUILD.json",
+      "sha256": "8323f27fa19b87a97bbf59ee12014fe3e2b7f1390423685fbf50ca49b0b22e23"
+    },
+    {
+      "path": "docs/build/SHA256SUMS.txt",
+      "sha256": "65b9ce31a93ad4abe5075f79390ec8962a917fde341b9f27f4c3fb4ad3dc50ff"
+    },
+    {
+      "path": "docs/build/SOURCE_SNAPSHOT.json",
+      "sha256": "ef37f7bde7ea5c9c88b7f187634097e4615e00bfe660a55cdd5c170e21a28703"
+    },
+    {
+      "path": "docs/performance/GROUPED_EXPERIMENT.md",
+      "sha256": "c79c83eb778f5b44fe00c0a127834e97a21ef50217a0af5be566f0caddcc2c57"
+    },
+    {
+      "path": "docs/performance/PH_SG_EXPERIMENT.md",
+      "sha256": "aa7d488cbce96df0184b392a5634ce907282a5c454a54d14d8788c664b71e2ff"
+    },
+    {
+      "path": "docs/performance/PYTHON_ENVIRONMENT.json",
+      "sha256": "33289ec68cfbe35ab5221432f3f5eb33c55cd48fb59582ffef23c6fa89063577"
+    },
+    {
+      "path": "pipeline/focused_pad_geometry.py",
+      "sha256": "4305afc466df718c51d89c62cb056369f9bee30f066faeb8d9ca19373107569d"
+    },
+    {
+      "path": "pipeline/markerless_strip.py",
+      "sha256": "f1ae3eea337eb1f201bdc621b64028c4769ac9838f298266a4f7a5a7ba2ae5ce"
+    },
+    {
+      "path": "pipeline/requirements.txt",
+      "sha256": "24a85634fe304be980f9339d3575f402436456515eaaaa0bfba269b1c796feae"
+    },
+    {
+      "path": "pipeline/runtime_pad_features.py",
+      "sha256": "0336cc9ab45be5d96c5f62c8bd64c771bb9300b12c6323a69b5b4cf18145d724"
+    },
+    {
+      "path": "pipeline/semiquant_schema.py",
+      "sha256": "6563c70ec8be6ed41b818a67a5b17eb222408ce2d6f395317bb18a2de2d8e779"
+    },
+    {
+      "path": "pipeline/specimen_grouping.py",
+      "sha256": "25ef2aa6e1b7593e2db72737f33054dcfdc7bcd28e42a7fec4ba576a92ee322c"
+    },
+    {
+      "path": "pipeline/test_final_pad_order.py",
+      "sha256": "ebafb69a841dbaedd56a07a3a92371554de61a330a5b4d104b2baa5d11f83f2c"
+    },
+    {
+      "path": "pipeline/test_focused_pad_audit.py",
+      "sha256": "c0d38f87b75e26482cac6138033e90c595ea4e3b8159ecb03698514ce42ec6bb"
+    },
+    {
+      "path": "pipeline/vision_pipeline.py",
+      "sha256": "8d175be7684e6918ea9eedefc0d2dc1707ff345cf18cd50cb6cc619c5c890cf5"
+    },
+    {
+      "path": "uritect_app/analysis_options.yaml",
+      "sha256": "b63207cf529949ec4727b68c23dbb38ce255b6f6f4ae1effcb5c1dcf2852d238"
+    },
+    {
+      "path": "uritect_app/android/app/build.gradle.kts",
+      "sha256": "ec305cdca0318bfbc4a9d19f9050a655ed2059f938c315a5727cdd74ade6eee0"
+    },
+    {
+      "path": "uritect_app/android/app/src/debug/AndroidManifest.xml",
+      "sha256": "b01a4541a8144c15bc617bab7eb267c99fa1476368fbbda5a12cdbf4e316a34c"
+    },
+    {
+      "path": "uritect_app/android/app/src/main/AndroidManifest.xml",
+      "sha256": "5a411fe22bef82ed96d83845b33b0771e1c17a7476dce595fef7833a5e00fb9e"
+    },
+    {
+      "path": "uritect_app/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "sha256": "f2c9a892219309b5e5372044f164b4240dbc4b9c4dfc4249a9f8fe465e87b17d"
+    },
+    {
+      "path": "uritect_app/android/app/src/main/kotlin/com/example/uritect_app/HistorySecurity.kt",
+      "sha256": "529900175ae75e848c556dc8fd5e5e62f336fb5ff44f6002833a36f46eb1e334"
+    },
+    {
+      "path": "uritect_app/android/app/src/main/kotlin/com/example/uritect_app/MainActivity.kt",
+      "sha256": "1b08c6c7a9d65ad3643e3b00d4c10be64c7b318368c54597591421959ecbb6f7"
+    },
+    {
+      "path": "uritect_app/android/app/src/main/res/drawable-v21/launch_background.xml",
+      "sha256": "ea7e0d3a36f960d5338fa86516b43a890cbd3ebf7160cf9b1af1d1b906af1934"
+    },
+    {
+      "path": "uritect_app/android/app/src/main/res/drawable/launch_background.xml",
+      "sha256": "ea7e0d3a36f960d5338fa86516b43a890cbd3ebf7160cf9b1af1d1b906af1934"
+    },
+    {
+      "path": "uritect_app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "sha256": "ce3255d512ce71a10a1771f04efcfc809cc913e773e12879f5f87d0ad3a8dc37"
+    },
+    {
+      "path": "uritect_app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "sha256": "b111bbcf5b2b4745db67f5e08b77593afefadac9ce6ed4e3ac7c3ecf64eefab8"
+    },
+    {
+      "path": "uritect_app/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "sha256": "59b19cbc191508a4b9e75fbf4a8a4afd5b0f74acc83112fed5b797e9b8d67a36"
+    },
+    {
+      "path": "uritect_app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "sha256": "7352d0177dc8c7e261e75c3b3d82117245390a05e1767dc333edc51e942313e7"
+    },
+    {
+      "path": "uritect_app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "sha256": "bbbf631e08733088697638a8ceab7daa7b25eb9baa942159aeed92dc6ad73f45"
+    },
+    {
+      "path": "uritect_app/android/app/src/main/res/values-night-v31/styles.xml",
+      "sha256": "1d0a5a00e9ebca10e4ee173973d43f4f6659639c821eeaa0a29781703b7a1173"
+    },
+    {
+      "path": "uritect_app/android/app/src/main/res/values-night/styles.xml",
+      "sha256": "e7e697826768cacb426444b94a45382945171733079d91c305187a21edd00f81"
+    },
+    {
+      "path": "uritect_app/android/app/src/main/res/values-v31/styles.xml",
+      "sha256": "524206bbf86c8fb1b707610e406c7cee8a79b64714812180cee905f26fa19467"
+    },
+    {
+      "path": "uritect_app/android/app/src/main/res/values/colors.xml",
+      "sha256": "c457256a6ac906f4a719c1654e76c5966fa6a4647c7c52d85187c356b3dffc03"
+    },
+    {
+      "path": "uritect_app/android/app/src/main/res/values/styles.xml",
+      "sha256": "6558100ab82d7c9d0381279b0af4ec7da75bdd68370a5b3d38ba3fb8d732cc69"
+    },
+    {
+      "path": "uritect_app/android/app/src/main/res/xml/history_backup_rules.xml",
+      "sha256": "309e2b66b930067047d9fa4d567db8a5e9bbe2293d73b3674d8228d6f1ede83a"
+    },
+    {
+      "path": "uritect_app/android/app/src/main/res/xml/history_extraction_rules.xml",
+      "sha256": "11e4ae73a114606dea6f218f32d5228cef7d71b0caeea4e15383508021f91458"
+    },
+    {
+      "path": "uritect_app/android/app/src/profile/AndroidManifest.xml",
+      "sha256": "b01a4541a8144c15bc617bab7eb267c99fa1476368fbbda5a12cdbf4e316a34c"
+    },
+    {
+      "path": "uritect_app/android/build.gradle.kts",
+      "sha256": "218f400e3fff31c9c986a2535dfb974560e1b4d33cc27b7c1fee96a2b7e44454"
+    },
+    {
+      "path": "uritect_app/android/gradle.properties",
+      "sha256": "876c4182d3b49088b3db0ddac6302bfd15c05233e9b95dac05a460bc4282b9c9"
+    },
+    {
+      "path": "uritect_app/android/gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "16caeaf66d57a0d1d2087fef6a97efa62de8da69afa5b908f40db35afc4342da"
+    },
+    {
+      "path": "uritect_app/android/gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "2bfb5011aac7b03653e037f351b8ccae72426eee446a000269a2c1dce64d9699"
+    },
+    {
+      "path": "uritect_app/android/gradlew",
+      "sha256": "ec56c02543666d92d9ac5ae7fcc48f88ce4de0deb8b7f9b39928ca46f68c1b2b"
+    },
+    {
+      "path": "uritect_app/android/gradlew.bat",
+      "sha256": "60a5c2b6593fded374cf68117447fd56b79751d8716117b1b0edea53bb1857f2"
+    },
+    {
+      "path": "uritect_app/android/settings.gradle.kts",
+      "sha256": "8bfe351763fb1239b6004ee4ad2f943b32f58d394ed70d58ade85d182b8a618c"
+    },
+    {
+      "path": "uritect_app/assets/calibration/capture_manifest_template.json",
+      "sha256": "206d3bb5a0385310b75fe6beba181e59db3a8d5c180a231ac6d627a11a3518f8"
+    },
+    {
+      "path": "uritect_app/assets/calibration/capture_metadata_template.csv",
+      "sha256": "6203e3f803ccb76a622fa88817c2e82bf9eca779509f18956ae78631e99de352"
+    },
+    {
+      "path": "uritect_app/assets/calibration/phase0_white_card_metadata_template.csv",
+      "sha256": "f19065eb33999a5fcac8b6d8ad4d6a181ce10f9aa37b1d5e4c57a1d90e202dc3"
+    },
+    {
+      "path": "uritect_app/assets/fonts/FONT_SOURCES.json",
+      "sha256": "820d752af0005664fb07131c7b6911898b8c7b99b43e3bbc0e483b37c48f625d"
+    },
+    {
+      "path": "uritect_app/assets/fonts/INTER_OFL.txt",
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "uritect_app/assets/fonts/Inter-Medium.ttf",
+      "sha256": "36a36ff7ac46dc2aeceac3a80a87a67e7b844b8fc936699259aac8fba9bcf734"
+    },
+    {
+      "path": "uritect_app/assets/fonts/Inter-Regular.ttf",
+      "sha256": "15b294b67f2f8bbc04d990023ef4aec66502b87dc9040d84abe5f896ccb693de"
+    },
+    {
+      "path": "uritect_app/assets/fonts/Inter-SemiBold.ttf",
+      "sha256": "334bb2c51aeba5f566abac8d03a7e75ab3234d6926b52e92a85dc704129258b5"
+    },
+    {
+      "path": "uritect_app/assets/fonts/POPPINS_OFL.txt",
+      "sha256": "6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573"
+    },
+    {
+      "path": "uritect_app/assets/fonts/Poppins-Bold.ttf",
+      "sha256": "ed709f2ba2be295030614990104cb4c9c62bc2a2445c25ccb19a1500158a5a8b"
+    },
+    {
+      "path": "uritect_app/assets/fonts/Poppins-Medium.ttf",
+      "sha256": "c0ba5609d6562c76ab7db73fa9c9b283d210598cb318a45d4085f540e4753d60"
+    },
+    {
+      "path": "uritect_app/assets/fonts/Poppins-SemiBold.ttf",
+      "sha256": "ec23e010878cf0841f910ef94f62294e40c7d77ce99be250dba2911d0a1a61cd"
+    },
+    {
+      "path": "uritect_app/assets/knn_reference_map.json",
+      "sha256": "01482ba9817a379e7c1ce0261a7e7b69ba89b1838f0588c2df49c6bac395376e"
+    },
+    {
+      "path": "uritect_app/assets/photos/dipstick icon.png",
+      "sha256": "3249c7d3fcb07d10f67123a02e334c3869eb096cd82ce011064f24b5e7ee36aa"
+    },
+    {
+      "path": "uritect_app/assets/photos/high risk.png",
+      "sha256": "21a3a517b0a0fbb294c768c577adacf37d7879cd60743642a3bd21cee1ec31b9"
+    },
+    {
+      "path": "uritect_app/assets/photos/logo.png",
+      "sha256": "a74c89366cf4d31ada3315165ed55c1bd66b86d81be4c92a843b99efa04c5796"
+    },
+    {
+      "path": "uritect_app/assets/photos/low risk.png",
+      "sha256": "84e5692f93203766a5b845c25620981f723d60eab5b96bb7bc25c8854d70620b"
+    },
+    {
+      "path": "uritect_app/assets/photos/minUriLogo.png",
+      "sha256": "2f26788cc34ad02b7dbd0269725365ffe2a94032728692f8404c827a71d7b55d"
+    },
+    {
+      "path": "uritect_app/assets/photos/moderate risk.png",
+      "sha256": "45e86d3dda14d587db981657e7a89441dc23aec0fe88fbfaa4f21b41491db6fc"
+    },
+    {
+      "path": "uritect_app/assets/production_semiquant_model.json",
+      "sha256": "1380d9e04d044413b42bd045e3c7370bf3d06a720695d2654598657234742279"
+    },
+    {
+      "path": "uritect_app/assets/training_support_policy.json",
+      "sha256": "d0bbc47975ef7e4ba461a3f7d492a6281e2b70dc930bce424f398d98ec53090b"
+    },
+    {
+      "path": "uritect_app/lib/config/theme.dart",
+      "sha256": "3cd722c2f476509dff7501d67e2905b3524cbe4f21b5b9381b85bc335f53f057"
+    },
+    {
+      "path": "uritect_app/lib/main.dart",
+      "sha256": "d1ae46fcff29c27eebe89ade3442e43ac6d94a42c8bee125b85115fe7ccfaf62"
+    },
+    {
+      "path": "uritect_app/lib/models/checklist_draft.dart",
+      "sha256": "fec90f863c83601ac9e3223da7dfe6dd985e17ee972e449721e045e3a2bd1026"
+    },
+    {
+      "path": "uritect_app/lib/models/clinical_symptoms.dart",
+      "sha256": "d6e6b6b206843fed3f36b3e3be6dc2fcf3edcec0a042b0a26723b3727ca24a69"
+    },
+    {
+      "path": "uritect_app/lib/models/dipstick_results_data.dart",
+      "sha256": "64ca31cc3155db46b075fa60f019700388a249f0e4213f1d5d15f261c777fe12"
+    },
+    {
+      "path": "uritect_app/lib/models/renal_followup.dart",
+      "sha256": "1e2a0cb2d9bf3ad670b089aa53c5a2266b1aad66d944ec54877d1e89cd869403"
+    },
+    {
+      "path": "uritect_app/lib/models/saved_scan_record.dart",
+      "sha256": "f2f1edef0db4c7ee591a31d82e923c48831327b02da6a5bb472c0ce0275d29b7"
+    },
+    {
+      "path": "uritect_app/lib/models/scan_analysis_exit_reason.dart",
+      "sha256": "d9ce2eb5dd0e87a3495d8969fa1123af90edc1c1d1165e8c7cdb67113640c185"
+    },
+    {
+      "path": "uritect_app/lib/models/scan_analysis_failure.dart",
+      "sha256": "f5b4f12dd5585dcbbd89dc4f001df04530529af09ef16a0dd0870893c28a3acb"
+    },
+    {
+      "path": "uritect_app/lib/models/scan_localization.dart",
+      "sha256": "e36a6ec245f469a640ceaa7e4f034b6ae1529461d1caae7ee2dbcbf27d7d0ad3"
+    },
+    {
+      "path": "uritect_app/lib/models/scan_model.dart",
+      "sha256": "ca6c087355b1670b29630b826f541619dd96e1925693ac4a77547969876a9f57"
+    },
+    {
+      "path": "uritect_app/lib/models/scan_provenance.dart",
+      "sha256": "657adc6eb848432a0f6ce0df94aff22333b0ffb8a4810499e0c78f3cfc7e55dc"
+    },
+    {
+      "path": "uritect_app/lib/models/screening_fusion.dart",
+      "sha256": "f14b25209a4217c663238be95e6af4bda858478a79b8372fd8815b153580b64b"
+    },
+    {
+      "path": "uritect_app/lib/pages/analyzing_page.dart",
+      "sha256": "0106a1f24f6c201102466cf7adf6e6a8472dd5cb8d121264085eb353a84fd864"
+    },
+    {
+      "path": "uritect_app/lib/pages/capture_dipstick_page.dart",
+      "sha256": "593faa083a92105e1a6947a3c6c58a1c3b0661389d8add5b162405ff0789b8ca"
+    },
+    {
+      "path": "uritect_app/lib/pages/dashboard_navigation.dart",
+      "sha256": "f20d8597016cc3730a0834b33b8f8b46893b1eed3a0eb872d60b361361cd5042"
+    },
+    {
+      "path": "uritect_app/lib/pages/home_page.dart",
+      "sha256": "c7ce776191a87ee13e8bd892b660af182b46ae14b9bb8d7a45ce5e49ac6fa097"
+    },
+    {
+      "path": "uritect_app/lib/pages/landing_page.dart",
+      "sha256": "ba5ab89f4550dc6265069fb7514713a016a53ba891f469aa4ee29ef15836f9e4"
+    },
+    {
+      "path": "uritect_app/lib/pages/overall_results_page.dart",
+      "sha256": "7a5151d012f0649bc7e0e2144689b6094e66e7c2772a8513c8fefacdbb302b3f"
+    },
+    {
+      "path": "uritect_app/lib/pages/performance_notes_page.dart",
+      "sha256": "c77960b65edd064514242cd1df48f03029f3436748d1e9d595f6f7b0909f156f"
+    },
+    {
+      "path": "uritect_app/lib/pages/protected_history_page.dart",
+      "sha256": "edbd52de37abf7f25ea3a255be0fafa4cf49e5b0a20ec5990edeab2fb4a2e7a7"
+    },
+    {
+      "path": "uritect_app/lib/pages/renal_results_page.dart",
+      "sha256": "c8084de4e3309ee7ddd7757cda0bf6682a451901c66ab4d81497f9b1a57d7c22"
+    },
+    {
+      "path": "uritect_app/lib/pages/results_page.dart",
+      "sha256": "64f7e9550f07ae59f2da22cfc7250097459086819484a566f46fe9e782d5712b"
+    },
+    {
+      "path": "uritect_app/lib/pages/root_page.dart",
+      "sha256": "7c633260d0ce13b0ebaee5f39a50b90a948bb86203d693b9e97b66ef394c82c9"
+    },
+    {
+      "path": "uritect_app/lib/pages/symptom_checklist_page.dart",
+      "sha256": "82b183000ef84c40a4717133e81bf7800150f50ed03d1fc571d3fbff904ab07c"
+    },
+    {
+      "path": "uritect_app/lib/services/history_cipher.dart",
+      "sha256": "4117a5074e8f9968737a51353e754e3cfc0733c910d584e757fdb1e6ba4c9bf5"
+    },
+    {
+      "path": "uritect_app/lib/services/local_scan_analysis_service.dart",
+      "sha256": "fc17467c6ad889b4d5f01a7d24252a68eae38041be329a9f8abda217bea4be69"
+    },
+    {
+      "path": "uritect_app/lib/services/runtime_pad_features.dart",
+      "sha256": "f399e36c9a81255d5ec85cfb3f80d86891be8e75a4c57d5ea7f2f9d28d194308"
+    },
+    {
+      "path": "uritect_app/lib/services/scan_analysis_service.dart",
+      "sha256": "d7619adc78b456c1544de9ba157c68d2c63a3f4e90edd0db35a1c824368e0ce1"
+    },
+    {
+      "path": "uritect_app/lib/services/scan_history_service.dart",
+      "sha256": "20e3a5e5fe36829cc9d88bd8e1337d26e7e114cea4331b733566c510fb6efaf9"
+    },
+    {
+      "path": "uritect_app/lib/services/scan_provenance_service.dart",
+      "sha256": "3b5ea5881d7b26e605f32b53925ca386edd55b9059ef8e391d7c9107fbbb5780"
+    },
+    {
+      "path": "uritect_app/lib/services/training_support_policy.dart",
+      "sha256": "0577ee4584e365632a346cb598920837dad3115ff61ba1b137a778ccbdf19f53"
+    },
+    {
+      "path": "uritect_app/lib/widgets/bottom_nav_bar.dart",
+      "sha256": "7def33ca997b8963732587895722adab859b57097346587d3499baa26c06c5f9"
+    },
+    {
+      "path": "uritect_app/lib/widgets/common_widgets.dart",
+      "sha256": "02392c84cea39f6f9e91676f2f9713e57f34aa76329af78ac569904126f09d96"
+    },
+    {
+      "path": "uritect_app/lib/widgets/dipstick_results_table.dart",
+      "sha256": "201965eef7ad425c1d732633f4d587d9bf48d77156e733e5083fb1bc34289441"
+    },
+    {
+      "path": "uritect_app/lib/widgets/scan_camera_preview.dart",
+      "sha256": "11ff558dddfa937d60c0fa2714ee1c2aee8f423dcdd4454665ab71eeff0140ff"
+    },
+    {
+      "path": "uritect_app/lib/widgets/scan_context_notice.dart",
+      "sha256": "2ae0955ae84d930e6674059899555b8485702f998eb9a64b4d5c3da4e420b272"
+    },
+    {
+      "path": "uritect_app/lib/widgets/scan_provenance_dialog.dart",
+      "sha256": "7eef7c04d2e2f8bd0cacaf9584eab5e7405d7be40f94210d4dcc13c408708301"
+    },
+    {
+      "path": "uritect_app/lib/widgets/strip_analysis_animation.dart",
+      "sha256": "9a831c54dc256dea4c46d143522c2045cde0d153be379884645f4cb2695ae7db"
+    },
+    {
+      "path": "uritect_app/lib/widgets/ten_pad_alignment_guide.dart",
+      "sha256": "87d2cdd98bebdb7474e901a16b2b669d88ccafb36c04914bc4718415ef956935"
+    },
+    {
+      "path": "uritect_app/pubspec.lock",
+      "sha256": "66759db299107594143cb220677d41c779b5361e73fb0a3e6c7e0924e77a054f"
+    },
+    {
+      "path": "uritect_app/pubspec.yaml",
+      "sha256": "a1090170b1e423e0f2d44b0c280f41af9e1411b8b46ffdfc68ecd1682763267c"
+    },
+    {
+      "path": "uritect_app/test/bayesian_workflow_ui_test.dart",
+      "sha256": "e88c8ddd2bb92010eaf846a84384b45f0c16e4e35f4e23deba8182796c0f09b2"
+    },
+    {
+      "path": "uritect_app/test/capture_lifecycle_test.dart",
+      "sha256": "b515b4cd8f421f0a3cbf4f33322573355746fa5852f432afb3a5ae0ef17f1531"
+    },
+    {
+      "path": "uritect_app/test/dashboard_return_navigation_test.dart",
+      "sha256": "9de2be6af6c9b41926a8f162a1ec50a017a80597836cb36d7054db1b5a14a178"
+    },
+    {
+      "path": "uritect_app/test/fixtures/cabatuan_028_cool.jpg",
+      "sha256": "7c7fc90fdeaf480cca7ddda0a31c0dbea8e572ff69deeddfea2c13636f223f93"
+    },
+    {
+      "path": "uritect_app/test/fixtures/rmx3933_white_background_20261007.jpg",
+      "sha256": "ba9cdf58dcafa270a51cfa9e9a6e681c073dab2400d9eb660916eb901ec493c0"
+    },
+    {
+      "path": "uritect_app/test/fixtures/runtime_pad_color_parity.json",
+      "sha256": "431c69a4cd1accebc1c1c511db4822ad81bec3e445feb15e40dfece3f0c206dc"
+    },
+    {
+      "path": "uritect_app/test/fixtures/urs10t_handle_reference.jpg",
+      "sha256": "65d5c90e18a22e35ef13e84a741acf9ad06d7e145188e51d17cea0725ad9a3b4"
+    },
+    {
+      "path": "uritect_app/test/goldens/bayesian_results_phone.png",
+      "sha256": "31ee4ab38cb07442d32b80042523639572bd523dc8abffbb6bbedc3b6385f168"
+    },
+    {
+      "path": "uritect_app/test/goldens/dipstick_readings_phone.png",
+      "sha256": "4e397cf958e62fe255cffedcd43c984f20feb2da499c67040644044d5d4be784"
+    },
+    {
+      "path": "uritect_app/test/goldens/strip_analysis_phone.png",
+      "sha256": "0269235ddc532871cdeabd975cdcab3946ad70f67087ffd9b8e1c81dc792e0c7"
+    },
+    {
+      "path": "uritect_app/test/goldens/strip_analysis_photo_overlay.png",
+      "sha256": "cbda157189116c0574ce96ec60c62ce33af2670951d97459631772e88d03007a"
+    },
+    {
+      "path": "uritect_app/test/history_authentication_test.dart",
+      "sha256": "22ae38ec1a8fb8776390f0987236f56e953606534907117782f514e039dce926"
+    },
+    {
+      "path": "uritect_app/test/local_analysis_image_test.dart",
+      "sha256": "0d4797a20e64955bbdfc3b3fec5f6d7c4c6f40c83b573a7e310a82bc8810a8b7"
+    },
+    {
+      "path": "uritect_app/test/methodology_audit_test.dart",
+      "sha256": "c5bfda346100474c0b00bbc26b43fe46b689b3bfd5e023472094556efe0a871b"
+    },
+    {
+      "path": "uritect_app/test/offline_fonts_test.dart",
+      "sha256": "5c26c58a1c0545a49c47065c0c1cdf1760edd04084653001fc7692482429a904"
+    },
+    {
+      "path": "uritect_app/test/pale_pad_phone_regression_test.dart",
+      "sha256": "f48767a94b537a13521aec55786d62c3c14afa839ee93409029a3f1c8e8b1022"
+    },
+    {
+      "path": "uritect_app/test/progressive_checklist_test.dart",
+      "sha256": "4f6e928dbd80e3cdafa87ab83df8a55a6258b1e49645906ae809ec6fe2866d0d"
+    },
+    {
+      "path": "uritect_app/test/protected_history_storage_test.dart",
+      "sha256": "5a0394b50732c64f6b15e058383c9db57039f668c5b5d8fb0089284438de1406"
+    },
+    {
+      "path": "uritect_app/test/provenance_and_history_ui_test.dart",
+      "sha256": "ba06c46e325099799dff9001f9833d916ecdda6ff770363029a8cbe275b76684"
+    },
+    {
+      "path": "uritect_app/test/provisional_readings_test.dart",
+      "sha256": "3e4ba300a640e0c1b8855b3ccb4d55b84e382fd964b53536be17d191dad38c35"
+    },
+    {
+      "path": "uritect_app/test/renal_followup_test.dart",
+      "sha256": "7b46109ea8369f126fd7506feaacb952b9428700d4d3c2d8bf39595a71a2b952"
+    },
+    {
+      "path": "uritect_app/test/runtime_pad_features_test.dart",
+      "sha256": "05a2b3b0ddf80c9501f6a26fb52198fe7a2ec90501d78ab1a267c63b5c2be3c0"
+    },
+    {
+      "path": "uritect_app/test/scan_camera_preview_test.dart",
+      "sha256": "beac24b3dedd0a1c1d9ada65af29b7760cb7d8f52ed00fa6b5b9eadbbe2f455e"
+    },
+    {
+      "path": "uritect_app/test/scan_rejection_reporting_test.dart",
+      "sha256": "3d3f7353a014f532c5e5fe8b4a510d1638f4f0706d7117e53f0efc46cf8c79b8"
+    },
+    {
+      "path": "uritect_app/test/scan_retake_navigation_test.dart",
+      "sha256": "4a6ac79045cafa0fd52ad874497313b5c73ff50d7a66cf40ad4dac2faca463d8"
+    },
+    {
+      "path": "uritect_app/test/screening_fusion_test.dart",
+      "sha256": "6fe8d309141694c467999e4652850e47c542849dfcf07762314312df610bf721"
+    },
+    {
+      "path": "uritect_app/test/strict_scan_reliability_test.dart",
+      "sha256": "dc323fbe104326335f255b738e2b794d38c4a447abb593d90ce0efea3ea59366"
+    },
+    {
+      "path": "uritect_app/test/strip_analysis_animation_test.dart",
+      "sha256": "f6f10ff704a2b5d41363eeeca272d31843c29b453a5ad57b8dfd9dbf3b85b289"
+    },
+    {
+      "path": "uritect_app/test/textured_background_scan_test.dart",
+      "sha256": "0154314a174e5675e70e46ed4580ee44042b911148e70e5d81f79a38d98e75fc"
+    },
+    {
+      "path": "uritect_app/test/training_support_policy_test.dart",
+      "sha256": "e7d4d839c4cc24a59630984b17e2dbc64994ca76ea82af2f875d4ed5b8ef02a6"
+    },
+    {
+      "path": "uritect_app/test/verified_scan_fixture.dart",
+      "sha256": "d6eb516fce69b40d2115248d2bf841259a8977dd4756c92fdfb7779d43a90901"
+    },
+    {
+      "path": "uritect_app/test/widget_test.dart",
+      "sha256": "c755f0fc6444b805860a2bda324246c5dfd996aefe8e89c395960ea32c620725"
+    },
+    {
+      "path": "uritect_app/tool/_baseline_local_scan_analysis_service.dart",
+      "sha256": "b871f333c91b55b8b7a55c360fc554381d5f91769dd9da03718932f1fb8c5c41"
+    },
+    {
+      "path": "uritect_app/tool/offline_scan_regression_test.dart",
+      "sha256": "46e22825736eb4214b24a32a70c5a0b80f66a6b24422cf050be9112d174b8d16"
+    },
+    {
+      "path": "uritect_app/tool/phone_scan_reproduction_test.dart",
+      "sha256": "4630759e362a02934eb300e26afd10f53ac3eba743ae13d607959587142e9182"
+    },
+    {
+      "path": "uritect_app/tool/photo_overlay_geometry_test.dart",
+      "sha256": "26ccaa2fc3cb66896433ec620688a9cd1ae51e4626d8a67a63f3b8b8d6c67bec"
+    },
+    {
+      "path": "uritect_app/tool/support_scan_regression_test.dart",
+      "sha256": "561c0d80b2dc09861e622bb9674b616d0b151f3441ac8ee11a58ed676cd3340f"
+    }
+  ]
+}
