@@ -1,14 +1,21 @@
 {
-  "version": "1.5.12+29",
-  "frozen_app_files_verified": 131,
+  "version": "1.5.13+30",
+  "frozen_app_files_verified": 133,
   "pipeline_modules": [
+    "build_final_release_manifest",
     "focused_pad_geometry",
+    "generate_current_evidence_records",
     "markerless_strip",
     "runtime_pad_features",
+    "seal_evaluation_build",
     "semiquant_schema",
     "specimen_grouping",
     "test_final_pad_order",
     "test_focused_pad_audit",
+    "test_strip_reading_schedule",
+    "verify_current_evidence",
+    "verify_final_release_manifest",
+    "verify_release_acceptance",
     "vision_pipeline"
   ],
   "raw_research_data_included": false,
@@ -24,19 +31,43 @@
     },
     {
       "path": "README.md",
-      "sha256": "b6bdc221dc3c00ea6c07d818c984202e74e962cc89e52256ad220f918cb3f6ac"
+      "sha256": "b5db1fd61108090458ab6148c8cb37a9a7f11f65496d5d28d96dfc9af25b8b90"
     },
     {
       "path": "docs/CLEAN_REPO_VERIFICATION.json",
       "sha256": "e6ec8dd0bbbb401f5c0b77d03aa19e86fc126aba3bcee32338d6d41329341385"
     },
     {
+      "path": "docs/CLEAN_REPO_VERIFICATION_1.5.13.json",
+      "sha256": "6e31a6721bb4ce59fbd7b9a5fc9995246fbd2534882d4bc334b2f6aa830b7f20"
+    },
+    {
+      "path": "docs/CURRENT_EVALUATION_RELEASE.json",
+      "sha256": "39a3e178b870fa7144ab5442eb61dbbc300dc311313e0034b72f6c7e9ee9e3a3"
+    },
+    {
       "path": "docs/EVALUATION_GUIDE.md",
-      "sha256": "1ced0582ed623a1eeb02d90fe12c420ebb82a81503d9c98d3eb57885ce454364"
+      "sha256": "9c97a2ae6b768d79cb0cfec12261d66e482e86ab674945ee1e3c0fe3632dbacd"
+    },
+    {
+      "path": "docs/MANUSCRIPT_FINAL_REVISION_GUIDE.md",
+      "sha256": "028102681820d4e33c95205a844125ce10351ff720775caee07276c8e138e09e"
+    },
+    {
+      "path": "docs/URITECT_CURRENT_ACCEPTANCE_RECORD.json",
+      "sha256": "e44f26e1cadea888910db5d28c92c69fb33da1e2a198cf84aa81bde1ba6e6657"
     },
     {
       "path": "docs/URITECT_EVALUATION_DEVICE_CHECKLIST.csv",
-      "sha256": "9dbb34a080e46b7d35771eaf56dfd3e152ae617c3e252be4865579ebeb1b3d69"
+      "sha256": "bd9e32e99caaf81fc5b93c9ba45283f644785945fcb24ac6adf8674f5d6c0dcd"
+    },
+    {
+      "path": "docs/URITECT_EVIDENCE_GAP_REMEDIATION_2026-10-12.md",
+      "sha256": "d152de42cce41acffae53615062b689df048811108aa6c712ca4b8104b683aae"
+    },
+    {
+      "path": "docs/URITECT_EVIDENCE_STATUS.json",
+      "sha256": "09e49f9c805b82c0db9c481e2ea5b22dfafaccd74f32cf40515dece21ae5ee10"
     },
     {
       "path": "docs/URITECT_FINAL_PAD_ORDER.json",
@@ -52,7 +83,11 @@
     },
     {
       "path": "docs/URITECT_PHYSICAL_STRIP_PROTOCOL.md",
-      "sha256": "935272f002a5660eb07721c5bfb0f426b9639a3a7fd91ca11cd65ba66af32552"
+      "sha256": "4b028fffe933c26ab3743bd19008b6a93c9dfc6d21ed15574f84c6dfec4316f6"
+    },
+    {
+      "path": "docs/URITECT_PHYSICAL_STRIP_RECORD.json",
+      "sha256": "cfe1a42ad3264d074056eb606fb9e2559f8d55acfcb147e5709da5cfb6defb9f"
     },
     {
       "path": "docs/URITECT_SECURITY_AND_INPUT_REVIEW_2026-10-10.md",
@@ -60,11 +95,23 @@
     },
     {
       "path": "docs/URITECT_STATISTICAL_AND_EXPERT_REVIEW_PACKET.md",
-      "sha256": "88addc7f242863ac91ced6a3991bf8b626363cc69cd0bac4afae1269c57dc118"
+      "sha256": "115348ced50eb28e398a9950059b687a5d5ba71f245179f0cd573d988f16714e"
+    },
+    {
+      "path": "docs/URITECT_STATISTICAL_REVIEW_DECISIONS.csv",
+      "sha256": "88f0c7b46526b3bb91a430b203aea87f61bf0aeee73a59ceb68e2567d714a289"
+    },
+    {
+      "path": "docs/URITECT_UNRESOLVED_EVIDENCE_GAPS.pdf",
+      "sha256": "729408a92744086a71b0a3e0bf858ef7ee14bfabc56a99e2b04722ecc929e716"
+    },
+    {
+      "path": "docs/URITECT_UTI_Eligibility_Authority.md",
+      "sha256": "65ad353e4b84f9971c8929db1fde4aaf9f9cd920c5df76bc93eb0d4d0dbd37e3"
     },
     {
       "path": "docs/build/APK_IDENTITY.txt",
-      "sha256": "ad93f3cb5c2b4192cb34cae8c35f0fdadc8edebc42f1a3cbbb2c5fb9e25d5f58"
+      "sha256": "49b4e499b0e17185fa8971ad2b1cda21ae165fc456430ac39ca8dc18a7f14852"
     },
     {
       "path": "docs/build/APK_PERMISSIONS.txt",
@@ -72,15 +119,19 @@
     },
     {
       "path": "docs/build/EVALUATION_BUILD.json",
-      "sha256": "92ab450bb8b127ccaac10e3319d9e898531fc3400e58f1e8b0d3d957905e102f"
+      "sha256": "477b6ef7c915ee472625f0eb2dbaa4ce6f80d69b855e89971a1b4e94c986f65d"
     },
     {
       "path": "docs/build/SHA256SUMS.txt",
-      "sha256": "691dc49c6d682186e38042be48a033509547656a2205cafe605ec8747a1968ab"
+      "sha256": "d7796610e8ad1e27393f86e529b452bb8bf1deaee53c45a1a44d91f70f435fcd"
     },
     {
       "path": "docs/build/SOURCE_SNAPSHOT.json",
-      "sha256": "b6f973140896672e61a5145d93cdbedeb92de7146c406f62d304b95b5fb1ce62"
+      "sha256": "ca1b54399bda97ecac5d81faa66e7ad43bfaf22d27ff057fef38f9ced392e094"
+    },
+    {
+      "path": "docs/build/VERIFICATION.json",
+      "sha256": "029267819af7715ea1818e1fead5632f8e0ca909b944d5726bc89f568bdba38b"
     },
     {
       "path": "docs/performance/GROUPED_EXPERIMENT.md",
@@ -95,8 +146,16 @@
       "sha256": "33289ec68cfbe35ab5221432f3f5eb33c55cd48fb59582ffef23c6fa89063577"
     },
     {
+      "path": "pipeline/build_final_release_manifest.py",
+      "sha256": "6532113246a7e236458b9100bc8d6b29b4de4c45e0431e8ca95228181442e048"
+    },
+    {
       "path": "pipeline/focused_pad_geometry.py",
       "sha256": "4305afc466df718c51d89c62cb056369f9bee30f066faeb8d9ca19373107569d"
+    },
+    {
+      "path": "pipeline/generate_current_evidence_records.py",
+      "sha256": "2994876937378c2fbd7c943ee65316ca66cfb4d7d3afcca85d312d69f83260e6"
     },
     {
       "path": "pipeline/markerless_strip.py",
@@ -109,6 +168,10 @@
     {
       "path": "pipeline/runtime_pad_features.py",
       "sha256": "0336cc9ab45be5d96c5f62c8bd64c771bb9300b12c6323a69b5b4cf18145d724"
+    },
+    {
+      "path": "pipeline/seal_evaluation_build.py",
+      "sha256": "1584b2dd666eb3b5afd4f1df737623a5939cb2a0af54557cafc7417f94fb80ac"
     },
     {
       "path": "pipeline/semiquant_schema.py",
@@ -125,6 +188,22 @@
     {
       "path": "pipeline/test_focused_pad_audit.py",
       "sha256": "c0d38f87b75e26482cac6138033e90c595ea4e3b8159ecb03698514ce42ec6bb"
+    },
+    {
+      "path": "pipeline/test_strip_reading_schedule.py",
+      "sha256": "904bc9a443475a4260d43d21d72cb84a559f7dcc88d8accbc3dfac9b462c5192"
+    },
+    {
+      "path": "pipeline/verify_current_evidence.py",
+      "sha256": "f7564fb4551a2a85c86a4abd3a324fe150ca57b8338fef24720a472fcfd03fde"
+    },
+    {
+      "path": "pipeline/verify_final_release_manifest.py",
+      "sha256": "da615715d166ea31cd4d19e1ff7bdf199d793f732e1e964d7c482b87df6ec265"
+    },
+    {
+      "path": "pipeline/verify_release_acceptance.py",
+      "sha256": "f81d8a4c645f093e70149cbb960d3c806c6ee370e558ede161791a722c7f0e0b"
     },
     {
       "path": "pipeline/vision_pipeline.py",
@@ -376,7 +455,7 @@
     },
     {
       "path": "uritect_app/lib/models/scan_model.dart",
-      "sha256": "ca6c087355b1670b29630b826f541619dd96e1925693ac4a77547969876a9f57"
+      "sha256": "63787c06c96c19a66efd0e0a6d3a03801805af8def27ce192fab2b4d80259566"
     },
     {
       "path": "uritect_app/lib/models/scan_provenance.dart",
@@ -385,6 +464,10 @@
     {
       "path": "uritect_app/lib/models/screening_fusion.dart",
       "sha256": "f14b25209a4217c663238be95e6af4bda858478a79b8372fd8815b153580b64b"
+    },
+    {
+      "path": "uritect_app/lib/models/strip_reading_schedule.dart",
+      "sha256": "7a6e451caf11abe8745084eb8a88f5cd5cba7fe51a32bdd1d8e24570ea4a44d6"
     },
     {
       "path": "uritect_app/lib/pages/analyzing_page.dart",
@@ -412,7 +495,7 @@
     },
     {
       "path": "uritect_app/lib/pages/overall_results_page.dart",
-      "sha256": "7a5151d012f0649bc7e0e2144689b6094e66e7c2772a8513c8fefacdbb302b3f"
+      "sha256": "277399c5ea4f0ef0f2e9682db67c76a96935ad8f28bb7707fc8a5e999892b835"
     },
     {
       "path": "uritect_app/lib/pages/performance_notes_page.dart",
@@ -428,7 +511,7 @@
     },
     {
       "path": "uritect_app/lib/pages/results_page.dart",
-      "sha256": "64f7e9550f07ae59f2da22cfc7250097459086819484a566f46fe9e782d5712b"
+      "sha256": "5a3686e6383755b8f838135a45c829f071320a8bc84f77e07d596a8ffe5fad0b"
     },
     {
       "path": "uritect_app/lib/pages/root_page.dart",
@@ -476,7 +559,7 @@
     },
     {
       "path": "uritect_app/lib/widgets/dipstick_results_table.dart",
-      "sha256": "201965eef7ad425c1d732633f4d587d9bf48d77156e733e5083fb1bc34289441"
+      "sha256": "2c06b53c3d5cd8d5b946e2959ffe00cf4d27b82ee5831c8b883ceb1c7a28d776"
     },
     {
       "path": "uritect_app/lib/widgets/scan_camera_preview.dart",
@@ -484,11 +567,11 @@
     },
     {
       "path": "uritect_app/lib/widgets/scan_context_notice.dart",
-      "sha256": "2ae0955ae84d930e6674059899555b8485702f998eb9a64b4d5c3da4e420b272"
+      "sha256": "bc73846a90d43955c483264e9bda6a03c369052f2654182707bc28eb87ef4268"
     },
     {
       "path": "uritect_app/lib/widgets/scan_provenance_dialog.dart",
-      "sha256": "7eef7c04d2e2f8bd0cacaf9584eab5e7405d7be40f94210d4dcc13c408708301"
+      "sha256": "c15ffd83904974b4402099dd67261e18033c8433c44e9cab3bf5be69de2e5d71"
     },
     {
       "path": "uritect_app/lib/widgets/strip_analysis_animation.dart",
@@ -504,7 +587,7 @@
     },
     {
       "path": "uritect_app/pubspec.yaml",
-      "sha256": "c61bf82b47dd8eb178a4e3f396e52d7760ff3ae8cb3fc0928d51cc63b924381f"
+      "sha256": "39fc7892bb7d89a6cd48b0c05a7bb539faa7313af6890a8df61b127988e4cf29"
     },
     {
       "path": "uritect_app/test/bayesian_workflow_ui_test.dart",
@@ -540,7 +623,7 @@
     },
     {
       "path": "uritect_app/test/goldens/dipstick_readings_phone.png",
-      "sha256": "4e397cf958e62fe255cffedcd43c984f20feb2da499c67040644044d5d4be784"
+      "sha256": "b9c5e9b5a4bee2f9e61381fddf18899004fb15153be0a00d523b76d90d7e8025"
     },
     {
       "path": "uritect_app/test/goldens/strip_analysis_phone.png",
@@ -612,11 +695,15 @@
     },
     {
       "path": "uritect_app/test/strict_scan_reliability_test.dart",
-      "sha256": "dc323fbe104326335f255b738e2b794d38c4a447abb593d90ce0efea3ea59366"
+      "sha256": "e8fa418d3b0db198515b32270d3ecb0dac480364257e32167dde003fd9ea2703"
     },
     {
       "path": "uritect_app/test/strip_analysis_animation_test.dart",
       "sha256": "f6f10ff704a2b5d41363eeeca272d31843c29b453a5ad57b8dfd9dbf3b85b289"
+    },
+    {
+      "path": "uritect_app/test/strip_reading_schedule_test.dart",
+      "sha256": "dc4367fadf10fab62d89219e9148c3b075639a7b3110fdf23dd06a8b0a03775a"
     },
     {
       "path": "uritect_app/test/textured_background_scan_test.dart",

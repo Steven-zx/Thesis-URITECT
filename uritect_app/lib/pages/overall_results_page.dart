@@ -194,6 +194,7 @@ class OverallResultsPage extends StatelessWidget {
                     rows: tableRows,
                     analyteConfidences: scanResult.analyteConfidences,
                     requiredConfidence: scanResult.requiredAnalyteConfidence,
+                    secondsAfterDipping: scanResult.provenance?.secondsAfterDipping,
                   ),
                 ],
               )

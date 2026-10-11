@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/scan_provenance.dart';
+import '../models/strip_reading_schedule.dart';
 import '../services/scan_provenance_service.dart';
 
 class ScanProvenanceDialog extends StatefulWidget {
@@ -44,6 +45,8 @@ class _ScanProvenanceDialogState extends State<ScanProvenanceDialog> {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
+          const Text(StripReadingSchedule.guidance),
+          const SizedBox(height: 12),
           Text(
             widget.source == 'camera'
                 ? 'Capture time is recorded by this app. Strip timing still depends on your report.'
@@ -86,7 +89,7 @@ class _ScanProvenanceDialogState extends State<ScanProvenanceDialog> {
             value: confirmed,
             onChanged: (v) => setState(() => confirmed = v ?? false),
             title: const Text(
-              'This photo belongs to this current specimen and was taken at its required reading time.',
+              'This photo belongs to this current specimen. I recorded the actual reading time.',
             ),
           ),
           const Text(

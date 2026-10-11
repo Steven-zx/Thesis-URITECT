@@ -1,8 +1,8 @@
 {
-  "version": "1.5.12+29",
-  "apk": "output/device_pilot/2026-10-12/1.5.12+29/Uritect_v1.5.12+29_release.apk",
+  "version": "1.5.13+30",
+  "apk": "output/device_pilot/2026-10-12/1.5.13+30/Uritect_v1.5.13+30_release.apk",
   "bytes": 57722651,
-  "sha256": "584A408E4C7009709B3AB1483BF2590FD9438845CB10E6D8A5A20300D462AF36",
+  "sha256": "02935A294081F8FC859CA4AF22D226AC8C918407B8996CA3277519A95C63D015",
   "certificate_sha256": "15D1138DCE077ADA624A140B3A145343D1A48305FD0847E9002869E488F19D39",
   "source_matches_archive": true,
   "embedded_assets": {
@@ -11,17 +11,24 @@
   },
   "offline_permissions_verified": true,
   "verification": {
-    "app_version": "1.5.12+29",
+    "app_version": "1.5.13+30",
     "flutter_tests": {
-      "passed": 144,
+      "passed": 148,
       "command": "flutter test --no-pub"
+    },
+    "python_tests": {
+      "passed": 52,
+      "command": "python -m unittest discover -s pipeline"
     },
     "static_analysis": {
       "result": "No issues found",
       "exit_code": 0
     },
-    "scope": "Restored opening screen; full app regressions passed. Prior Python audit unchanged.",
-    "phone_acceptance": "pending; no connected device"
+    "timing_regressions": "60 s required UTI/renal inputs retained; early/unknown/mismatched timing blocked for relevant pads; image review values preserved",
+    "ui_review": "Phone result and Bayesian summary golden images rendered and visually inspected",
+    "source_pdf": "docs/URITECT_UNRESOLVED_EVIDENCE_GAPS.pdf",
+    "phone_acceptance": "pending; no connected device",
+    "independent_clinical_validation": "not established"
   },
   "purpose": "Frozen developer-evaluation research prototype; existing experimental classifier retained after focused audit",
   "clinical_validation_established": false,

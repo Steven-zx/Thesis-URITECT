@@ -1,7 +1,10 @@
-# Statistical and expert content review packet — 1.4.1+14
+# Statistical and expert content review packet — 1.5.13+30
 
 Status: **prepared; all reviews pending**.
-Review the sealed source and exact release APK identified in the release manifest.
+Review the sealed source and exact release APK identified in [the current build record](CURRENT_EVALUATION_RELEASE.json).
+Historical manifests for 1.4.x do not identify this build. The owner plans three MedTech
+content reviewers; record each actual review separately. This does not change the separate
+planned usability instrument or imply that any review has been completed.
 The numerical parameters remain unchanged; no replacement values have been invented.
 
 ## Frozen calculations
@@ -63,6 +66,11 @@ Female qualifying symptoms: dysuria, frequency, urgency, suprapubic pain or visi
 Male qualifying symptoms: dysuria, frequency or urgency.
 Systemic findings and renal prompt-consult overrides suppress ordinary UTI estimates.
 Unknown/unanswered items are not confirmed absence. Invalid scans retain symptom-based safety advice.
+
+The new reported-time gate requires the required input pads to match their scheduled
+reading second: female LEU/NIT/BLD and male LEU/NIT use 60 seconds, as do renal PRO/BLD.
+The manufacturer's identity and timing tolerances are not verified. The owner-reported
+30/40/45-second pads do not become timed-valid results from a 60-second photograph.
 
 Review exact flag IDs and precedence in
 `uritect_app/lib/models/screening_fusion.dart`,

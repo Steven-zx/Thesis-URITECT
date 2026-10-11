@@ -1,0 +1,10 @@
+{
+  "app_version": "1.5.13+30",
+  "frozen_app_source_drift": [],
+  "owner_checkout_flutter_tests_passed": 148,
+  "owner_checkout_python_tests_passed": 52,
+  "owner_checkout_flutter_static_analysis": "No issues found",
+  "python_subset_tests_passed_in_this_checkout": 10,
+  "flutter_suite_repeated_in_this_checkout": false,
+  "external_acceptance": "pending; no phone passes or review signatures inferred"
+}

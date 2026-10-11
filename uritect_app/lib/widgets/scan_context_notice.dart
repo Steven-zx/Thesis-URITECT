@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/scan_model.dart';
+import '../models/strip_reading_schedule.dart';
 
 class ScanContextNotice extends StatelessWidget {
   final ScanResult scan;
@@ -16,6 +17,8 @@ class ScanContextNotice extends StatelessWidget {
       'direction_verified_experimental_',
     );
     final messages = <String>[
+      StripReadingSchedule.guidance,
+      'Anti-VC is an owner-reported label claim. Its protection limits are unverified; it does not rule out interference.',
       if (scan.status == 'review_required')
         'Some readings are provisional. Vote confidence is not a probability of correctness. Only adequately supported input pads can contribute to screening calculations.',
       if (experimental)

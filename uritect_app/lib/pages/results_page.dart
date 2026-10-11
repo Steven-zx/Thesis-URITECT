@@ -166,6 +166,7 @@ class ResultsPage extends StatelessWidget {
                 rows: scanResult.rows,
                 analyteConfidences: scanResult.analyteConfidences,
                 requiredConfidence: scanResult.requiredAnalyteConfidence,
+                secondsAfterDipping: scanResult.provenance?.secondsAfterDipping,
               ),
             if (scanResult.rejectionCode != null)
               ExpansionTile(

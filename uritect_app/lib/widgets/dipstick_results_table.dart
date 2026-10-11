@@ -2,17 +2,20 @@ import 'package:flutter/material.dart';
 
 import '../config/theme.dart';
 import '../models/dipstick_results_data.dart';
+import '../models/strip_reading_schedule.dart';
 
 /// Readable strip values; reference ranges are available on demand.
 class DipstickResultsTable extends StatelessWidget {
   final List<DipstickResultRow> rows;
   final Map<String, double> analyteConfidences;
   final double requiredConfidence;
+  final double? secondsAfterDipping;
   const DipstickResultsTable({
     super.key,
     required this.rows,
     this.analyteConfidences = const {},
     this.requiredConfidence = 0.55,
+    this.secondsAfterDipping,
   });
 
   @override
@@ -71,6 +74,25 @@ class DipstickResultsTable extends StatelessWidget {
                           style: const TextStyle(
                             color: AppColors.primaryDark,
                             fontWeight: FontWeight.w700,
+                          ),
+                        ),
+                        Text(
+                          StripReadingSchedule.reportedTimeMatches(
+                                row.code,
+                                secondsAfterDipping,
+                              )
+                              ? 'Reported time matches ${StripReadingSchedule.secondsByCode[row.code]} s schedule'
+                              : 'Image review only · requires ${StripReadingSchedule.secondsByCode[row.code]} s',
+                          textAlign: TextAlign.right,
+                          style: TextStyle(
+                            fontSize: 11,
+                            color:
+                                StripReadingSchedule.reportedTimeMatches(
+                                  row.code,
+                                  secondsAfterDipping,
+                                )
+                                ? AppColors.textPrimary
+                                : Colors.orange.shade900,
                           ),
                         ),
                         if (analyteConfidences[row.name] != null)
