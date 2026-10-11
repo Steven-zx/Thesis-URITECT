@@ -90,7 +90,7 @@ class RenalResultsPage extends StatelessWidget {
                   result.finalAction.heading,
                   style: Theme.of(context).textTheme.titleMedium?.copyWith(
                     color: color,
-                    fontWeight: FontWeight.w700,
+                    fontWeight: FontWeight.w600,
                     fontSize: 17,
                   ),
                 ),
@@ -280,7 +280,7 @@ class RenalResultsPage extends StatelessWidget {
       text,
       style: Theme.of(context).textTheme.titleMedium?.copyWith(
         color: AppColors.primaryMain,
-        fontWeight: FontWeight.w700,
+        fontWeight: FontWeight.w600,
         fontSize: 15,
       ),
     );

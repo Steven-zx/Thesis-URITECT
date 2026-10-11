@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "release": "1.5.13+30",
+  "release": "1.5.14+31",
   "status": "pending_actual_evaluation",
   "clinical_calibration_status": "not_established",
   "devices": [
@@ -10,7 +10,7 @@
       "android_version": null,
       "test_date": null,
       "tester": null,
-      "apk_sha256": "02935A294081F8FC859CA4AF22D226AC8C918407B8996CA3277519A95C63D015",
+      "apk_sha256": "0CA45708DA6097ADF080915663388478B2B39BEFA2380B03D320C774F98D6780",
       "connection_status": "not_connected",
       "cases": [
         {
@@ -296,7 +296,7 @@
       "android_version": null,
       "test_date": null,
       "tester": null,
-      "apk_sha256": "02935A294081F8FC859CA4AF22D226AC8C918407B8996CA3277519A95C63D015",
+      "apk_sha256": "0CA45708DA6097ADF080915663388478B2B39BEFA2380B03D320C774F98D6780",
       "connection_status": "not_connected",
       "cases": [
         {
@@ -635,7 +635,7 @@
       "reviewer": null,
       "credentials": null,
       "date": null,
-      "apk_sha256": "02935A294081F8FC859CA4AF22D226AC8C918407B8996CA3277519A95C63D015",
+      "apk_sha256": "0CA45708DA6097ADF080915663388478B2B39BEFA2380B03D320C774F98D6780",
       "decisions": [],
       "evidence": []
     },
@@ -644,7 +644,7 @@
       "reviewer": null,
       "credentials": null,
       "date": null,
-      "apk_sha256": "02935A294081F8FC859CA4AF22D226AC8C918407B8996CA3277519A95C63D015",
+      "apk_sha256": "0CA45708DA6097ADF080915663388478B2B39BEFA2380B03D320C774F98D6780",
       "decisions": [],
       "evidence": []
     },
@@ -653,7 +653,7 @@
       "reviewer": null,
       "credentials": null,
       "date": null,
-      "apk_sha256": "02935A294081F8FC859CA4AF22D226AC8C918407B8996CA3277519A95C63D015",
+      "apk_sha256": "0CA45708DA6097ADF080915663388478B2B39BEFA2380B03D320C774F98D6780",
       "decisions": [],
       "evidence": []
     },
@@ -662,7 +662,7 @@
       "reviewer": null,
       "credentials": null,
       "date": null,
-      "apk_sha256": "02935A294081F8FC859CA4AF22D226AC8C918407B8996CA3277519A95C63D015",
+      "apk_sha256": "0CA45708DA6097ADF080915663388478B2B39BEFA2380B03D320C774F98D6780",
       "decisions": [],
       "evidence": []
     },
@@ -671,7 +671,7 @@
       "reviewer": null,
       "credentials": null,
       "date": null,
-      "apk_sha256": "02935A294081F8FC859CA4AF22D226AC8C918407B8996CA3277519A95C63D015",
+      "apk_sha256": "0CA45708DA6097ADF080915663388478B2B39BEFA2380B03D320C774F98D6780",
       "decisions": [],
       "evidence": []
     },
@@ -680,7 +680,7 @@
       "reviewer": null,
       "credentials": null,
       "date": null,
-      "apk_sha256": "02935A294081F8FC859CA4AF22D226AC8C918407B8996CA3277519A95C63D015",
+      "apk_sha256": "0CA45708DA6097ADF080915663388478B2B39BEFA2380B03D320C774F98D6780",
       "decisions": [],
       "evidence": []
     }

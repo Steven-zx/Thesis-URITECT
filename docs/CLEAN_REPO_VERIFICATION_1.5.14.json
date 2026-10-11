@@ -1,0 +1,9 @@
+{
+  "app_version": "1.5.14+31",
+  "frozen_app_source_drift": [],
+  "owner_checkout_flutter_tests_passed": 148,
+  "owner_checkout_static_analysis": "No issues found",
+  "flutter_suite_repeated_in_this_checkout": false,
+  "python_subset_result": "10 passed at preceding 1.5.13 source; not repeated for font-only app update",
+  "phone_acceptance": "pending"
+}

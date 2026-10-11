@@ -1,6 +1,6 @@
 # URITECT — developer evaluation
 
-Frozen Android research prototype **1.5.13+30**, package `ph.edu.wvsu.uritect`.
+Frozen Android research prototype **1.5.14+31**, package `ph.edu.wvsu.uritect`.
 Start with [the evaluation guide](docs/EVALUATION_GUIDE.md).
 
 - `uritect_app/`: exact frozen app source, locked dependencies, model assets and tests.
@@ -16,3 +16,5 @@ This repository excludes private research datasets, patient history, raw specime
 The classifier and Bayesian component are experimental; clinical validation is not established. No license is granted by this evaluation package; agree distribution and contribution terms with the project owner.
 
 See [the evidence-gap response](docs/URITECT_EVIDENCE_GAP_REMEDIATION_2026-10-12.md) and [confirmed lot record](docs/URITECT_PHYSICAL_STRIP_RECORD.json). External acceptance remains pending.
+
+The current build uses bundled [Poppins typography](docs/URITECT_POPPINS_TYPOGRAPHY_2026-10-12.md).

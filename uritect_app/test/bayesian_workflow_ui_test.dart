@@ -1,4 +1,5 @@
 import 'verified_scan_fixture.dart';
+import 'support/load_app_fonts.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -99,6 +100,7 @@ void main() {
     final icons = FontLoader('MaterialIcons')
       ..addFont(rootBundle.load('fonts/MaterialIcons-Regular.otf'));
     await icons.load();
+    await loadAppFonts();
   });
   testWidgets('results display Bayesian percentage and applied factors', (
     tester,

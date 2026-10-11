@@ -37,3 +37,7 @@ Build 1.5.12+29 restores the requested gradient opening screen. See [the change 
 The lot record now includes URS-10T 2026051201, manufacture 2026-05-12, expiry 2028-05-11 and owner-transcribed mixed 30/40/45/60-second times. Manufacturer, category chart, timing tolerances and anti-VC limits remain unverified. Required-pad interpretation checks now require matching reported time; mismatched numerical rows remain image review only. No model, label, prior or LR was changed.
 
 The owner source passed 148 Flutter tests, 52 Python tests and static analysis. Copied app files match the current frozen inventory. Earlier clean-checkout verification records are historical. See [the remediation response](URITECT_EVIDENCE_GAP_REMEDIATION_2026-10-12.md). The included current evidence index and acceptance checker refer to artifacts in the owner workspace; running full artifact checks requires the separately distributed APK/source archive at those paths. These are not bundled into Git. Device and signed-review statuses remain pending.
+
+## Typography build 1.5.14+31
+
+Poppins Bold headings, SemiBold sections and Regular body are bundled and registered offline. All 148 app tests and static analysis passed in the owner checkout; copied app files match the frozen source. Pipeline/classifier data are unchanged; the 52-test full pipeline result and 10-test clean subset result are prior-run evidence. See [the typography note](URITECT_POPPINS_TYPOGRAPHY_2026-10-12.md). This APK is not yet phone-tested; current pending evidence is bound to its checksum.

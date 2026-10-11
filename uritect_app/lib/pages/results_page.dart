@@ -104,7 +104,7 @@ class ResultsPage extends StatelessWidget {
                         ? 'Readings need review'
                         : 'Please retake the photo',
                     style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                      fontWeight: FontWeight.w700,
+                      fontWeight: FontWeight.w600,
                     ),
                   ),
                   const SizedBox(height: 6),

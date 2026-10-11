@@ -567,7 +567,7 @@ class _SymptomChecklistPageState extends State<SymptomChecklistPage> {
                   title,
                   style: Theme.of(context).textTheme.titleSmall?.copyWith(
                     color: AppColors.primaryDark,
-                    fontWeight: FontWeight.w700,
+                    fontWeight: FontWeight.w600,
                   ),
                 ),
                 const SizedBox(height: 3),

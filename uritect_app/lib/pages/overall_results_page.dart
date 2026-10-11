@@ -194,7 +194,8 @@ class OverallResultsPage extends StatelessWidget {
                     rows: tableRows,
                     analyteConfidences: scanResult.analyteConfidences,
                     requiredConfidence: scanResult.requiredAnalyteConfidence,
-                    secondsAfterDipping: scanResult.provenance?.secondsAfterDipping,
+                    secondsAfterDipping:
+                        scanResult.provenance?.secondsAfterDipping,
                   ),
                 ],
               )
@@ -245,7 +246,7 @@ class OverallResultsPage extends StatelessWidget {
             'UTI screening estimate',
             style: Theme.of(
               context,
-            ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w700),
+            ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w600),
           ),
           const SizedBox(height: 6),
           if (calculated) ...[
@@ -365,7 +366,7 @@ class OverallResultsPage extends StatelessWidget {
                   style: Theme.of(context).textTheme.titleSmall?.copyWith(
                     color: AppColors.primaryMain,
                     fontSize: 14,
-                    fontWeight: FontWeight.w700,
+                    fontWeight: FontWeight.w600,
                   ),
                 ),
                 Text(
@@ -685,7 +686,7 @@ class OverallResultsPage extends StatelessWidget {
           'Checklist Review',
           style: Theme.of(context).textTheme.titleSmall?.copyWith(
             color: AppColors.primaryDark,
-            fontWeight: FontWeight.w700,
+            fontWeight: FontWeight.w600,
           ),
         ),
         subtitle: Text(

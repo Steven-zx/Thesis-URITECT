@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'support/load_app_fonts.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -83,6 +84,7 @@ void main() {
     final icons = FontLoader('MaterialIcons')
       ..addFont(rootBundle.load('fonts/MaterialIcons-Regular.otf'));
     await icons.load();
+    await loadAppFonts();
   });
   test('photo containment maps exact coordinates without cropping', () {
     expect(

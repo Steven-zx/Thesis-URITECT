@@ -341,7 +341,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                       style: Theme.of(context).textTheme.titleMedium?.copyWith(
                         color: AppColors.primaryMain,
                         fontSize: 16,
-                        fontWeight: FontWeight.w500,
+                        fontWeight: FontWeight.w600,
                       ),
                     ),
                     const SizedBox(height: 8),

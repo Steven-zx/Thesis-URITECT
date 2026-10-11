@@ -1,6 +1,6 @@
 {
-  "version": "1.5.13+30",
-  "frozen_app_files_verified": 133,
+  "version": "1.5.14+31",
+  "frozen_app_files_verified": 135,
   "pipeline_modules": [
     "build_final_release_manifest",
     "focused_pad_geometry",
@@ -31,7 +31,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "b5db1fd61108090458ab6148c8cb37a9a7f11f65496d5d28d96dfc9af25b8b90"
+      "sha256": "cfaf85031476845e3e7b2460a57e9bccaa0e147e96e000598e5f26ffc782aead"
     },
     {
       "path": "docs/CLEAN_REPO_VERIFICATION.json",
@@ -42,24 +42,28 @@
       "sha256": "6e31a6721bb4ce59fbd7b9a5fc9995246fbd2534882d4bc334b2f6aa830b7f20"
     },
     {
+      "path": "docs/CLEAN_REPO_VERIFICATION_1.5.14.json",
+      "sha256": "5e0168934ae1b1bc601552a19d9d3a5de9caf9f1bccaea11ebb420456ad1b79b"
+    },
+    {
       "path": "docs/CURRENT_EVALUATION_RELEASE.json",
-      "sha256": "39a3e178b870fa7144ab5442eb61dbbc300dc311313e0034b72f6c7e9ee9e3a3"
+      "sha256": "144e1996589b0ec1c942c627aeeb1c23f385567d004fe8791063a47a5e3580d7"
     },
     {
       "path": "docs/EVALUATION_GUIDE.md",
-      "sha256": "9c97a2ae6b768d79cb0cfec12261d66e482e86ab674945ee1e3c0fe3632dbacd"
+      "sha256": "1df3ae246d6764aa00f08e2eb2c83a9ab32f534ca884d085ac98ce966d7f9655"
     },
     {
       "path": "docs/MANUSCRIPT_FINAL_REVISION_GUIDE.md",
-      "sha256": "028102681820d4e33c95205a844125ce10351ff720775caee07276c8e138e09e"
+      "sha256": "810a355c1f0d384ec7641629f009021de789f8dc4dd71e078753d6282a7efcc0"
     },
     {
       "path": "docs/URITECT_CURRENT_ACCEPTANCE_RECORD.json",
-      "sha256": "e44f26e1cadea888910db5d28c92c69fb33da1e2a198cf84aa81bde1ba6e6657"
+      "sha256": "499d4b7399815b67f84d9997d7829ba048392ad2dfa918e13629431da5ab92db"
     },
     {
       "path": "docs/URITECT_EVALUATION_DEVICE_CHECKLIST.csv",
-      "sha256": "bd9e32e99caaf81fc5b93c9ba45283f644785945fcb24ac6adf8674f5d6c0dcd"
+      "sha256": "812f51396c9ae17d65da4e5e55d94c112b9dd810168d11bcbbcce55e8e574ea7"
     },
     {
       "path": "docs/URITECT_EVIDENCE_GAP_REMEDIATION_2026-10-12.md",
@@ -67,7 +71,7 @@
     },
     {
       "path": "docs/URITECT_EVIDENCE_STATUS.json",
-      "sha256": "09e49f9c805b82c0db9c481e2ea5b22dfafaccd74f32cf40515dece21ae5ee10"
+      "sha256": "5f96edaafc64ca397ebb62d33793fc8318c7c05be912449d04a7a17fe9f3e42b"
     },
     {
       "path": "docs/URITECT_FINAL_PAD_ORDER.json",
@@ -90,16 +94,20 @@
       "sha256": "cfe1a42ad3264d074056eb606fb9e2559f8d55acfcb147e5709da5cfb6defb9f"
     },
     {
+      "path": "docs/URITECT_POPPINS_TYPOGRAPHY_2026-10-12.md",
+      "sha256": "f011d399e49f75ad551de3defb79314b382ebe81c91631d8652994f37f6bbda3"
+    },
+    {
       "path": "docs/URITECT_SECURITY_AND_INPUT_REVIEW_2026-10-10.md",
       "sha256": "857ac2b78f65369a0d952c9d8c85b8c42466ff04df051e4f0ed5d13478304a6a"
     },
     {
       "path": "docs/URITECT_STATISTICAL_AND_EXPERT_REVIEW_PACKET.md",
-      "sha256": "115348ced50eb28e398a9950059b687a5d5ba71f245179f0cd573d988f16714e"
+      "sha256": "71133418c9ea3c837d07dbbe1d5414554d7736c11faa725aa9d550c511cdbe72"
     },
     {
       "path": "docs/URITECT_STATISTICAL_REVIEW_DECISIONS.csv",
-      "sha256": "88f0c7b46526b3bb91a430b203aea87f61bf0aeee73a59ceb68e2567d714a289"
+      "sha256": "29afad49025e0317a1a4e0ab8e821d428ede7c7d02c9399e8fd67298c95f8f56"
     },
     {
       "path": "docs/URITECT_UNRESOLVED_EVIDENCE_GAPS.pdf",
@@ -111,7 +119,7 @@
     },
     {
       "path": "docs/build/APK_IDENTITY.txt",
-      "sha256": "49b4e499b0e17185fa8971ad2b1cda21ae165fc456430ac39ca8dc18a7f14852"
+      "sha256": "22ffbe3bf7cd038225e8a93a3b3a7793c96ee6f91377ddb3c3fde39d514d7b7e"
     },
     {
       "path": "docs/build/APK_PERMISSIONS.txt",
@@ -119,19 +127,19 @@
     },
     {
       "path": "docs/build/EVALUATION_BUILD.json",
-      "sha256": "477b6ef7c915ee472625f0eb2dbaa4ce6f80d69b855e89971a1b4e94c986f65d"
+      "sha256": "eb96ddd3d4f9aeb152fecae4879a63843c0291385bbf27263ca58ff7163126e7"
     },
     {
       "path": "docs/build/SHA256SUMS.txt",
-      "sha256": "d7796610e8ad1e27393f86e529b452bb8bf1deaee53c45a1a44d91f70f435fcd"
+      "sha256": "7478fb9f1998b59d62a0b862cea88985756d4cb789221ce5baf02239b41583bf"
     },
     {
       "path": "docs/build/SOURCE_SNAPSHOT.json",
-      "sha256": "ca1b54399bda97ecac5d81faa66e7ad43bfaf22d27ff057fef38f9ced392e094"
+      "sha256": "6141fc5b2752209df390ccfef62a559b27d8b2a342a29d5071d927e862433330"
     },
     {
       "path": "docs/build/VERIFICATION.json",
-      "sha256": "029267819af7715ea1818e1fead5632f8e0ca909b944d5726bc89f568bdba38b"
+      "sha256": "7da70b0666127dabd128c8151c5bb1e402b038b40117b33a2187cb1f1dccf3a7"
     },
     {
       "path": "docs/performance/GROUPED_EXPERIMENT.md",
@@ -155,7 +163,7 @@
     },
     {
       "path": "pipeline/generate_current_evidence_records.py",
-      "sha256": "2994876937378c2fbd7c943ee65316ca66cfb4d7d3afcca85d312d69f83260e6"
+      "sha256": "35a1816f3a424e7110e6e63a1c6a41f3b3d93a5605915db94fd25e98f1d45b83"
     },
     {
       "path": "pipeline/markerless_strip.py",
@@ -343,7 +351,7 @@
     },
     {
       "path": "uritect_app/assets/fonts/FONT_SOURCES.json",
-      "sha256": "820d752af0005664fb07131c7b6911898b8c7b99b43e3bbc0e483b37c48f625d"
+      "sha256": "01850980673b96ae31a76e996813bc085746bf1af78cf49544434e8da1ef08e3"
     },
     {
       "path": "uritect_app/assets/fonts/INTER_OFL.txt",
@@ -372,6 +380,10 @@
     {
       "path": "uritect_app/assets/fonts/Poppins-Medium.ttf",
       "sha256": "c0ba5609d6562c76ab7db73fa9c9b283d210598cb318a45d4085f540e4753d60"
+    },
+    {
+      "path": "uritect_app/assets/fonts/Poppins-Regular.ttf",
+      "sha256": "7e65201e9b79159e2300267cc885e16c8dcef2424cdfa09a29bfb0980a94a7ba"
     },
     {
       "path": "uritect_app/assets/fonts/Poppins-SemiBold.ttf",
@@ -415,7 +427,7 @@
     },
     {
       "path": "uritect_app/lib/config/theme.dart",
-      "sha256": "3cd722c2f476509dff7501d67e2905b3524cbe4f21b5b9381b85bc335f53f057"
+      "sha256": "37852d3860a48bb804e93ae4d37527d30548ec4c31a736c33e92a2c98e3db3cf"
     },
     {
       "path": "uritect_app/lib/main.dart",
@@ -487,15 +499,15 @@
     },
     {
       "path": "uritect_app/lib/pages/home_page.dart",
-      "sha256": "c7ce776191a87ee13e8bd892b660af182b46ae14b9bb8d7a45ce5e49ac6fa097"
+      "sha256": "5951590ac5035d698fcc2c67a65f98546af5d89044104d9f18523c6aa4f7d332"
     },
     {
       "path": "uritect_app/lib/pages/landing_page.dart",
-      "sha256": "ba5ab89f4550dc6265069fb7514713a016a53ba891f469aa4ee29ef15836f9e4"
+      "sha256": "4cdbca5a640e07d1b170a7ee774dc194bb5497a986ecd45b0020b2fb20288f9c"
     },
     {
       "path": "uritect_app/lib/pages/overall_results_page.dart",
-      "sha256": "277399c5ea4f0ef0f2e9682db67c76a96935ad8f28bb7707fc8a5e999892b835"
+      "sha256": "798d04c67c99603720cce59a88ca7c565c8febeea904f984340f87f27ad973e0"
     },
     {
       "path": "uritect_app/lib/pages/performance_notes_page.dart",
@@ -507,11 +519,11 @@
     },
     {
       "path": "uritect_app/lib/pages/renal_results_page.dart",
-      "sha256": "c8084de4e3309ee7ddd7757cda0bf6682a451901c66ab4d81497f9b1a57d7c22"
+      "sha256": "06b29b9ecbb98fc421fdce0737efffa1c40b86ec33269ddbd74623fc9e36c50c"
     },
     {
       "path": "uritect_app/lib/pages/results_page.dart",
-      "sha256": "5a3686e6383755b8f838135a45c829f071320a8bc84f77e07d596a8ffe5fad0b"
+      "sha256": "dfd5ad453e327c879f069254aaba1d4e7d40ee990dc55f79019cbcc4015bfdee"
     },
     {
       "path": "uritect_app/lib/pages/root_page.dart",
@@ -519,7 +531,7 @@
     },
     {
       "path": "uritect_app/lib/pages/symptom_checklist_page.dart",
-      "sha256": "82b183000ef84c40a4717133e81bf7800150f50ed03d1fc571d3fbff904ab07c"
+      "sha256": "d9834bb95553583830c515b4fa6c72c8dce74dc854ec9ed657ac790ceb92ebb0"
     },
     {
       "path": "uritect_app/lib/services/history_cipher.dart",
@@ -575,7 +587,7 @@
     },
     {
       "path": "uritect_app/lib/widgets/strip_analysis_animation.dart",
-      "sha256": "9a831c54dc256dea4c46d143522c2045cde0d153be379884645f4cb2695ae7db"
+      "sha256": "6ba092ddf741fdad3ca4bd119a65eef2d5594fd82836679841ed060643f8d707"
     },
     {
       "path": "uritect_app/lib/widgets/ten_pad_alignment_guide.dart",
@@ -587,11 +599,11 @@
     },
     {
       "path": "uritect_app/pubspec.yaml",
-      "sha256": "39fc7892bb7d89a6cd48b0c05a7bb539faa7313af6890a8df61b127988e4cf29"
+      "sha256": "eb0ef141228da62daec106d159db0076258187580d6135e47f07f436cabcf335"
     },
     {
       "path": "uritect_app/test/bayesian_workflow_ui_test.dart",
-      "sha256": "e88c8ddd2bb92010eaf846a84384b45f0c16e4e35f4e23deba8182796c0f09b2"
+      "sha256": "5d08fbce47246c49406b581ab154efd742083381b6987c09c48548e5a0ad1e17"
     },
     {
       "path": "uritect_app/test/capture_lifecycle_test.dart",
@@ -619,11 +631,11 @@
     },
     {
       "path": "uritect_app/test/goldens/bayesian_results_phone.png",
-      "sha256": "31ee4ab38cb07442d32b80042523639572bd523dc8abffbb6bbedc3b6385f168"
+      "sha256": "5c579de4e46160463021a2f90667b78433447ed5acb1fcb9f5ee195e15f50d61"
     },
     {
       "path": "uritect_app/test/goldens/dipstick_readings_phone.png",
-      "sha256": "b9c5e9b5a4bee2f9e61381fddf18899004fb15153be0a00d523b76d90d7e8025"
+      "sha256": "a36f7cbbb2eb435d83ffd8d798da5a331aa9d8bbc8ac7778f4743e4c1022fc27"
     },
     {
       "path": "uritect_app/test/goldens/strip_analysis_phone.png",
@@ -631,7 +643,7 @@
     },
     {
       "path": "uritect_app/test/goldens/strip_analysis_photo_overlay.png",
-      "sha256": "cbda157189116c0574ce96ec60c62ce33af2670951d97459631772e88d03007a"
+      "sha256": "1c7aba0429faf32d57096ad5777a07d8cf7f60b01113bb6aeb7dd0e08b5b3001"
     },
     {
       "path": "uritect_app/test/history_authentication_test.dart",
@@ -647,7 +659,7 @@
     },
     {
       "path": "uritect_app/test/offline_fonts_test.dart",
-      "sha256": "5c26c58a1c0545a49c47065c0c1cdf1760edd04084653001fc7692482429a904"
+      "sha256": "2e5bb483cdcef088fb01d6d186629f37e53f512fb508643096621223ecb07dbb"
     },
     {
       "path": "uritect_app/test/pale_pad_phone_regression_test.dart",
@@ -699,11 +711,15 @@
     },
     {
       "path": "uritect_app/test/strip_analysis_animation_test.dart",
-      "sha256": "f6f10ff704a2b5d41363eeeca272d31843c29b453a5ad57b8dfd9dbf3b85b289"
+      "sha256": "46d7eb97886b8720f5b7b23f78e75386fe63112db3eb503e5f7b5757a7ae1424"
     },
     {
       "path": "uritect_app/test/strip_reading_schedule_test.dart",
       "sha256": "dc4367fadf10fab62d89219e9148c3b075639a7b3110fdf23dd06a8b0a03775a"
+    },
+    {
+      "path": "uritect_app/test/support/load_app_fonts.dart",
+      "sha256": "bff0f9da12d7e41c39f90d8de2e0f86fee32ec00b56ba219153d9c3f247cf53d"
     },
     {
       "path": "uritect_app/test/textured_background_scan_test.dart",

@@ -36,9 +36,17 @@ def main():
         'note': 'Byte/hash identity is verified, not byte-for-byte reproducible rebuilds or clinical validity.',
     }
     record_path = ROOT / 'docs/URITECT_CURRENT_ACCEPTANCE_RECORD.json'
-    if record_path.exists():
-        old = json.loads(record_path.read_text())
-        assert old['release'] == version, 'Preserve prior-build acceptance records'
+    old = json.loads(record_path.read_text()) if record_path.exists() else None
+    if old and old['release'] != version:
+        assert re.fullmatch(r'\d+\.\d+\.\d+\+\d+', old['release'])
+        previous = ROOT / 'output/device_pilot/2026-10-12' / old['release'] / 'ACCEPTANCE_RECORD.json'
+        assert previous.parent.exists(), 'Prior build evidence folder must exist'
+        if previous.exists():
+            assert json.loads(previous.read_text()) == old, 'Preserve differing prior observations'
+        else:
+            write(previous, old)
+        old = None
+    if old:
         record = old
     else:
         physical = {
