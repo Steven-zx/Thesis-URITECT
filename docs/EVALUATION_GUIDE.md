@@ -27,3 +27,7 @@ Complete [the device checklist](URITECT_EVALUATION_DEVICE_CHECKLIST.csv) with ac
 Exact-build manual device acceptance, [physical-strip manufacturer/lot/expiry/IFU details](URITECT_PHYSICAL_STRIP_PROTOCOL.md), and [recorded expert/usability review](URITECT_STATISTICAL_AND_EXPERT_REVIEW_PACKET.md) remain pending. Pad orientation is owner-reported MedTech verified. Clinical calibration and local culture-confirmed outcome validation are not established. pH majority bias, SG class overlap, small rare-class support and inspected evaluation sets remain limitations. Preserve these disclosures in evaluation reports.
 
 Report issues with device/Android version, steps, expected/actual behavior, build version and de-identified screenshots. Never upload participant identifiers, specimen photographs or signing credentials to a public issue.
+
+## Restored opening screen
+
+Build 1.5.12+29 restores the requested gradient opening screen. See [the change note](URITECT_OPENING_SCREEN_RESTORED_2026-10-12.md). Its source passed 144 app tests and static analysis in the owner checkout; copied app files match the new frozen inventory. The older clean-checkout test record remains historical evidence for 1.5.11+28.

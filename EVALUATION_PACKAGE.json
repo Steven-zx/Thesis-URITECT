@@ -1,6 +1,6 @@
 {
-  "version": "1.5.11+28",
-  "frozen_app_files_verified": 129,
+  "version": "1.5.12+29",
+  "frozen_app_files_verified": 131,
   "pipeline_modules": [
     "focused_pad_geometry",
     "markerless_strip",
@@ -24,7 +24,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "0e3d4a78c4ddb4ee507f9441b8bd2243565e4b1fd05d21008bd2e7c67ad02dfc"
+      "sha256": "b6bdc221dc3c00ea6c07d818c984202e74e962cc89e52256ad220f918cb3f6ac"
     },
     {
       "path": "docs/CLEAN_REPO_VERIFICATION.json",
@@ -32,7 +32,7 @@
     },
     {
       "path": "docs/EVALUATION_GUIDE.md",
-      "sha256": "09480fcbb369946169bb68dc5a8c6a9c1046996fe5d6b28d3d5c1a1b3a8006bd"
+      "sha256": "1ced0582ed623a1eeb02d90fe12c420ebb82a81503d9c98d3eb57885ce454364"
     },
     {
       "path": "docs/URITECT_EVALUATION_DEVICE_CHECKLIST.csv",
@@ -45,6 +45,10 @@
     {
       "path": "docs/URITECT_FINAL_PAD_ORIENTATION.md",
       "sha256": "bcba2acfb219f887e775dd7cc95e3ec137fb35b27472561c55ea5a7f62c2101a"
+    },
+    {
+      "path": "docs/URITECT_OPENING_SCREEN_RESTORED_2026-10-12.md",
+      "sha256": "1e5cde9fab244f2371f3da1b32c1370a6c30a736117bb5f28eefd8527b462450"
     },
     {
       "path": "docs/URITECT_PHYSICAL_STRIP_PROTOCOL.md",
@@ -60,7 +64,7 @@
     },
     {
       "path": "docs/build/APK_IDENTITY.txt",
-      "sha256": "d20270caad237dbb114ff29dfa140500b7521e6f7cd56ce3e2d420a7c5ab1aee"
+      "sha256": "ad93f3cb5c2b4192cb34cae8c35f0fdadc8edebc42f1a3cbbb2c5fb9e25d5f58"
     },
     {
       "path": "docs/build/APK_PERMISSIONS.txt",
@@ -68,15 +72,15 @@
     },
     {
       "path": "docs/build/EVALUATION_BUILD.json",
-      "sha256": "8323f27fa19b87a97bbf59ee12014fe3e2b7f1390423685fbf50ca49b0b22e23"
+      "sha256": "92ab450bb8b127ccaac10e3319d9e898531fc3400e58f1e8b0d3d957905e102f"
     },
     {
       "path": "docs/build/SHA256SUMS.txt",
-      "sha256": "65b9ce31a93ad4abe5075f79390ec8962a917fde341b9f27f4c3fb4ad3dc50ff"
+      "sha256": "691dc49c6d682186e38042be48a033509547656a2205cafe605ec8747a1968ab"
     },
     {
       "path": "docs/build/SOURCE_SNAPSHOT.json",
-      "sha256": "ef37f7bde7ea5c9c88b7f187634097e4615e00bfe660a55cdd5c170e21a28703"
+      "sha256": "b6f973140896672e61a5145d93cdbedeb92de7146c406f62d304b95b5fb1ce62"
     },
     {
       "path": "docs/performance/GROUPED_EXPERIMENT.md",
@@ -156,11 +160,15 @@
     },
     {
       "path": "uritect_app/android/app/src/main/res/drawable-v21/launch_background.xml",
-      "sha256": "ea7e0d3a36f960d5338fa86516b43a890cbd3ebf7160cf9b1af1d1b906af1934"
+      "sha256": "c8a49ee74cbad3627c5b3b843aeb76c0e8a1d327ae977814f68d684303d2d514"
     },
     {
       "path": "uritect_app/android/app/src/main/res/drawable/launch_background.xml",
-      "sha256": "ea7e0d3a36f960d5338fa86516b43a890cbd3ebf7160cf9b1af1d1b906af1934"
+      "sha256": "c8a49ee74cbad3627c5b3b843aeb76c0e8a1d327ae977814f68d684303d2d514"
+    },
+    {
+      "path": "uritect_app/android/app/src/main/res/drawable/launch_empty_icon.xml",
+      "sha256": "6741abe4c260cb821122bde7fb17fb794c0eb06383ca8ef85cdf0ac897158d7b"
     },
     {
       "path": "uritect_app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
@@ -192,11 +200,11 @@
     },
     {
       "path": "uritect_app/android/app/src/main/res/values-v31/styles.xml",
-      "sha256": "524206bbf86c8fb1b707610e406c7cee8a79b64714812180cee905f26fa19467"
+      "sha256": "e5014ae8883e9727ac0372fd5c4644b48ab7f7cb4b4335d7fe95e7d70693640b"
     },
     {
       "path": "uritect_app/android/app/src/main/res/values/colors.xml",
-      "sha256": "c457256a6ac906f4a719c1654e76c5966fa6a4647c7c52d85187c356b3dffc03"
+      "sha256": "780f8334fdb14bf65bb5605c36ea366e3c15c6348af6c75080713c1017588aeb"
     },
     {
       "path": "uritect_app/android/app/src/main/res/values/styles.xml",
@@ -332,7 +340,7 @@
     },
     {
       "path": "uritect_app/lib/main.dart",
-      "sha256": "d1ae46fcff29c27eebe89ade3442e43ac6d94a42c8bee125b85115fe7ccfaf62"
+      "sha256": "8b8b553d760cf9f766c174e4bc70116ba1df7b2aab9b094e8d9eea5e076b88a2"
     },
     {
       "path": "uritect_app/lib/models/checklist_draft.dart",
@@ -381,6 +389,10 @@
     {
       "path": "uritect_app/lib/pages/analyzing_page.dart",
       "sha256": "0106a1f24f6c201102466cf7adf6e6a8472dd5cb8d121264085eb353a84fd864"
+    },
+    {
+      "path": "uritect_app/lib/pages/app_splash_page.dart",
+      "sha256": "8bebdd8cf92648854bb86174304189bcb763260aaa247505b00f44784252fea0"
     },
     {
       "path": "uritect_app/lib/pages/capture_dipstick_page.dart",
@@ -492,7 +504,7 @@
     },
     {
       "path": "uritect_app/pubspec.yaml",
-      "sha256": "a1090170b1e423e0f2d44b0c280f41af9e1411b8b46ffdfc68ecd1682763267c"
+      "sha256": "c61bf82b47dd8eb178a4e3f396e52d7760ff3ae8cb3fc0928d51cc63b924381f"
     },
     {
       "path": "uritect_app/test/bayesian_workflow_ui_test.dart",
@@ -620,7 +632,7 @@
     },
     {
       "path": "uritect_app/test/widget_test.dart",
-      "sha256": "c755f0fc6444b805860a2bda324246c5dfd996aefe8e89c395960ea32c620725"
+      "sha256": "48ce3da81951d934b523cdd433f6d73fd2765414f8b01a4c03737d7d612c2433"
     },
     {
       "path": "uritect_app/tool/_baseline_local_scan_analysis_service.dart",

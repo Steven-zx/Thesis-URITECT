@@ -1,6 +1,6 @@
 # URITECT — developer evaluation
 
-Frozen Android research prototype **1.5.11+28**, package `ph.edu.wvsu.uritect`.
+Frozen Android research prototype **1.5.12+29**, package `ph.edu.wvsu.uritect`.
 Start with [the evaluation guide](docs/EVALUATION_GUIDE.md).
 
 - `uritect_app/`: exact frozen app source, locked dependencies, model assets and tests.
