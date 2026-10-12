@@ -51,8 +51,8 @@ void main() {
             matchesGoldenFile('goldens/dashboard_phone.png'),
           );
         }
-        await tester.ensureVisible(find.text('Before you scan'));
-        await tester.tap(find.text('Before you scan'));
+        await tester.ensureVisible(find.text('Before You Scan'));
+        await tester.tap(find.text('Before You Scan'));
         await tester.pumpAndSettle();
         expect(find.textContaining('Show all ten pads'), findsOneWidget);
         expect(tester.takeException(), isNull);

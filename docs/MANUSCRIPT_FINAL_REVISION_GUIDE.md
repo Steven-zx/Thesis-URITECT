@@ -1,6 +1,6 @@
 # URITECT Manuscript Final Revision Guide
 
-**2026-10-12 correction:** target evaluation candidate 1.5.15+33, experimental model
+**2026-10-12 correction:** target evaluation candidate 1.5.16+34, experimental model
 `direction_verified_experimental_v1_20261011`. The original 82.52%/17.18% values below
 are historical and must not be presented as this app's current performance. Grouped
 retrospective baseline evidence is 80.18% per analyte / 12.50% all ten on an inspected

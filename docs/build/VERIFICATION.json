@@ -1,48 +1,19 @@
 {
-  "app_version": "1.5.15+33",
+  "app_version": "1.5.16+34",
   "flutter_tests": {
-    "passed": 156,
-    "command": "flutter test --no-pub",
-    "note": "Full suite passed; final logo/glyph layout checks passed afterward; subsequent source change only added required braces and bumped build code."
+    "passed": 164,
+    "command": "flutter test --no-pub"
   },
   "static_analysis": {
     "result": "No issues found",
     "exit_code": 0
   },
+  "unchanged_core": "All existing assets/models/services verified byte-for-byte against pre-redesign guard",
+  "ui_review": "Real-font phone screenshots inspected: home, readings, summary, kidney follow-up. Small phone/180% text, unknown/duplicate timing, optional metadata, safe research-percent relocation, explicit unknown answers and saved-history research background locking tested.",
   "python_tests": {
-    "scope": "Classifier and feature extraction assets unchanged; earlier full pipeline result 52 passed."
+    "scope": "Classifier and feature pipeline unchanged; previous full run 52 passed. Release metadata tooling checked directly."
   },
-  "ui_review": "Real Poppins phone dashboard/results/photo-overlay goldens visually inspected; 280 px width and 180% text checks passed.",
-  "image_quality": "Early dark, overexposed, blank and blur rejection tested before localization; thresholds retained; quality screening is not validation of reagent interpretation.",
-  "benchmark": {
-    "before": {
-      "fixture": "test/fixtures/urs10t_handle_reference.jpg",
-      "runs_ms": [
-        2529,
-        2275,
-        2386
-      ],
-      "scope": "Host Flutter test runtime, warm runs, same fixture; not Android device latency",
-      "median_ms": 2386
-    },
-    "after": {
-      "fixture": "test/fixtures/urs10t_handle_reference.jpg",
-      "runs_ms": [
-        2383,
-        2141,
-        2128
-      ],
-      "scope": "Host Flutter test runtime, warm runs, same fixture; not Android device latency",
-      "median_ms": 2141
-    },
-    "median_reduction_percent": 10.27,
-    "limits": "One fixed deidentified photo, three warm host runs each, non-isolated host load; not device latency or clinical accuracy."
-  },
-  "phone_acceptance": "pending; no installed-device result for this APK",
-  "independent_clinical_validation": "not established",
-  "post_lint_quality_tests": {
-    "passed": 5,
-    "command": "flutter test --no-pub test/photo_quality_check_test.dart"
-  },
-  "classifier_asset_unchanged": true
+  "phone_acceptance": "pending; no device pass or installation for this APK",
+  "previous_evaluator_scores_apply_to_this_build": false,
+  "independent_clinical_validation": "not established"
 }

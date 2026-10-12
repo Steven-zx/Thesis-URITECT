@@ -1,5 +1,6 @@
 """Bind current evaluation records to the sealed APK; keep absent evidence pending."""
 import csv
+import argparse
 import json
 import re
 from pathlib import Path
@@ -12,9 +13,16 @@ def write(path, data):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--evidence-dir', type=Path)
+    args = parser.parse_args()
     version = re.search(r'^version:\s*(\S+)', (ROOT / 'uritect_app/pubspec.yaml').read_text(), re.M)[1]
-    folder = ROOT / 'output/device_pilot/2026-10-12' / version
+    candidates = list((ROOT / 'output/device_pilot').glob('*/' + version))
+    assert args.evidence_dir or len(candidates) == 1, 'Select one sealed evidence folder'
+    folder = args.evidence_dir.resolve() if args.evidence_dir else candidates[0]
+    assert folder.is_relative_to(ROOT / 'output/device_pilot')
     receipt = json.loads((folder / 'EVALUATION_BUILD.json').read_text())
+    assert receipt['version'] == version, 'Build receipt version mismatch'
     apk = ROOT / receipt['apk']
     assert receipt['sha256'] == entry(apk)['sha256']
     strip = json.loads((ROOT / 'docs/URITECT_PHYSICAL_STRIP_RECORD.json').read_text())
@@ -39,7 +47,9 @@ def main():
     old = json.loads(record_path.read_text()) if record_path.exists() else None
     if old and old['release'] != version:
         assert re.fullmatch(r'\d+\.\d+\.\d+\+\d+', old['release'])
-        previous = ROOT / 'output/device_pilot/2026-10-12' / old['release'] / 'ACCEPTANCE_RECORD.json'
+        previous_folders = list((ROOT / 'output/device_pilot').glob('*/' + old['release']))
+        assert len(previous_folders) == 1, 'Locate the prior build evidence uniquely'
+        previous = previous_folders[0] / 'ACCEPTANCE_RECORD.json'
         assert previous.parent.exists(), 'Prior build evidence folder must exist'
         if previous.exists():
             assert json.loads(previous.read_text()) == old, 'Preserve differing prior observations'

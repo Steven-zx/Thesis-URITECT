@@ -1,6 +1,6 @@
 {
-  "version": "1.5.15+33",
-  "frozen_app_files_verified": 140,
+  "version": "1.5.16+34",
+  "frozen_app_files_verified": 144,
   "pipeline_modules": [
     "build_final_release_manifest",
     "focused_pad_geometry",
@@ -31,7 +31,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "729c42fa3088ac29f11f915803144e3fffbd1d2e52dabaaba80b71b42b3d471a"
+      "sha256": "05acc7d3b8ec4470b6b51b7953ffb68cbe601951022f46a149e061cdfde4720b"
     },
     {
       "path": "docs/CLEAN_REPO_VERIFICATION.json",
@@ -50,8 +50,12 @@
       "sha256": "bd982715e3a6b7874f257ed80d797a80dea9751ae03ddfcd3c1191965ec22196"
     },
     {
+      "path": "docs/CLEAN_REPO_VERIFICATION_1.5.16.json",
+      "sha256": "32581b720739c9ceb1bfcebe906d99a11fdad7daa1c793ccc27e90025e8ee431"
+    },
+    {
       "path": "docs/CURRENT_EVALUATION_RELEASE.json",
-      "sha256": "8d0c1bbe11ccc02ad64eedccebb2767a32a889aeef5a5c49c07ccc5c561fd32e"
+      "sha256": "7495f00cd3ba0c0849adeef6a7b3e5826fad42f6ec064e95462a03bfa0569018"
     },
     {
       "path": "docs/DEVELOPER_EVALUATION_REVIEW_FORM.md",
@@ -59,19 +63,19 @@
     },
     {
       "path": "docs/EVALUATION_GUIDE.md",
-      "sha256": "c22cd73d6bfa1e8d4bafbf997ca40d35b8816e8d91e313f789a30913c55b0012"
+      "sha256": "64a824f3db756e9847aa8e68b92bb1c3ea4cdd1dd1cf2cfecb51cf674cfcde74"
     },
     {
       "path": "docs/MANUSCRIPT_FINAL_REVISION_GUIDE.md",
-      "sha256": "026b34aa4624603429daab1b2032f67541e79343cf8dbeef7e192eebd1b27524"
+      "sha256": "f5cddfdc530d5994438ce98c834e60d3c1dbcd7d07e72dd8aac4aa2be5a7932c"
     },
     {
       "path": "docs/URITECT_CURRENT_ACCEPTANCE_RECORD.json",
-      "sha256": "9161268a06e05f64353c1c8b880c704f4a06f0055963beed5c25779937854ed8"
+      "sha256": "59e044700919b8735eab584c2e0bd7d82be2b99bfdc8b17d4c022a545c163aee"
     },
     {
       "path": "docs/URITECT_EVALUATION_DEVICE_CHECKLIST.csv",
-      "sha256": "868fc954490781bf9aa245fd3fa1f247949cf76395b025f585d1f5cdea257a53"
+      "sha256": "7ec16932f67b70ee1242304296e221d6a273471b07ead7d29b09f7a10a0782b5"
     },
     {
       "path": "docs/URITECT_EVIDENCE_GAP_REMEDIATION_2026-10-12.md",
@@ -79,7 +83,7 @@
     },
     {
       "path": "docs/URITECT_EVIDENCE_STATUS.json",
-      "sha256": "17d29ea3972d557d5f76c9de8b9ecf0d5b0a22fbc1caf69e940c41f697eb927a"
+      "sha256": "2002243ed185ae3d3fe3aa35f99ce32dc7da0dd9dc96b453bac2c134aabfe02a"
     },
     {
       "path": "docs/URITECT_FINAL_PAD_ORDER.json",
@@ -115,11 +119,15 @@
     },
     {
       "path": "docs/URITECT_STATISTICAL_AND_EXPERT_REVIEW_PACKET.md",
-      "sha256": "04cc9272459d70d7be61c141fe99317bda8837372340ecf062106a07d9e90aa8"
+      "sha256": "48c7e85cf03558dce2dab78cfc82e164555da548a30d08fcf6c471464f385eb8"
     },
     {
       "path": "docs/URITECT_STATISTICAL_REVIEW_DECISIONS.csv",
-      "sha256": "baa69457cb5ca517c1ccb8e1be9bf7b5c3a1c21f41a752ccf3e1825507a94719"
+      "sha256": "4b0152138f9bcc7660c880049e85de4fefcfc9489b747df04aa14d1a35e37342"
+    },
+    {
+      "path": "docs/URITECT_UI_SIMPLIFICATION_2026-10-13.md",
+      "sha256": "ea0eda829f8147fba274cd942b549ea21238918fabfcfd9913f9a8c50f2436e2"
     },
     {
       "path": "docs/URITECT_UNRESOLVED_EVIDENCE_GAPS.pdf",
@@ -131,7 +139,7 @@
     },
     {
       "path": "docs/build/APK_IDENTITY.txt",
-      "sha256": "e3dfd8765715eb6cac064bfe6e2c39c3a9b96e509a9e68e4820948a6747faac0"
+      "sha256": "f69ce2d0b72bdd789121cd1687189825b223f85a76b98780cb83538c0e0d28ee"
     },
     {
       "path": "docs/build/APK_PERMISSIONS.txt",
@@ -139,7 +147,7 @@
     },
     {
       "path": "docs/build/EVALUATION_BUILD.json",
-      "sha256": "2757305b099ca4fac3caeff056a204904143e8b0d89ff2d99629b3a41a3073ad"
+      "sha256": "4e47a3dc4ac496058cebac46ffec24373bf8788255abcf98ea3a143fbf0439a0"
     },
     {
       "path": "docs/build/SCAN_LATENCY_BENCHMARK.json",
@@ -147,15 +155,19 @@
     },
     {
       "path": "docs/build/SHA256SUMS.txt",
-      "sha256": "3482ae33bf88e5bb1f751d7fadd37c895638445e5069a260368c1d21ebacfe43"
+      "sha256": "5964835613c9ef06bbf40500081274fdd13839e2f759fb85c4e716af0c580c28"
     },
     {
       "path": "docs/build/SOURCE_SNAPSHOT.json",
-      "sha256": "b660b86e8beec9cfb24d019c3f448149d2fb37ac6f68da84ee1c48aa4ed71c8c"
+      "sha256": "afed87132907e850a5d7306116c44fd72e9a08adc2377acaa56cf6606132aaa2"
+    },
+    {
+      "path": "docs/build/UNCHANGED_CORE.json",
+      "sha256": "0d167f177be0deab9b184ca61dab7aeeae680f3d9fdff0e264106524585075af"
     },
     {
       "path": "docs/build/VERIFICATION.json",
-      "sha256": "8723638e369b1c0c109414cccb0d1072421142d64803a353edb55c29bf1d46c8"
+      "sha256": "ac66ea0c21eb0406ffbcaf36938d84b949a1262dce53c153dd50dfbefb9d60e7"
     },
     {
       "path": "docs/performance/GROUPED_EXPERIMENT.md",
@@ -179,7 +191,7 @@
     },
     {
       "path": "pipeline/generate_current_evidence_records.py",
-      "sha256": "f99be8f61f608bad387420fc0b06e6a2424954d2e769e6360a7904f17b2cd9b0"
+      "sha256": "ffa0454ac17bfb6c8040084e4a560706c49e899e51eb7866c261888b2b41b5f8"
     },
     {
       "path": "pipeline/markerless_strip.py",
@@ -498,6 +510,10 @@
       "sha256": "7a6e451caf11abe8745084eb8a88f5cd5cba7fe51a32bdd1d8e24570ea4a44d6"
     },
     {
+      "path": "uritect_app/lib/pages/about_page.dart",
+      "sha256": "7589bcc99329b5bb0f5eeaf69eaaa1b01fdf04435554cf7a02e4fe52acdcfb83"
+    },
+    {
       "path": "uritect_app/lib/pages/analyzing_page.dart",
       "sha256": "8397f1ec8095996a2605873de6b1ad84becb8ce0b97b2e076682d0527e2d793c"
     },
@@ -515,7 +531,7 @@
     },
     {
       "path": "uritect_app/lib/pages/home_page.dart",
-      "sha256": "872c3610f810eda5ef3b778b8f7ae7b24f9417e78b4a8d5adb2ef2d8e54885d2"
+      "sha256": "4a61468ac0d986cd57ffb8f2e01873e5f8111c3c7936a4afcea31110caf07423"
     },
     {
       "path": "uritect_app/lib/pages/landing_page.dart",
@@ -523,7 +539,7 @@
     },
     {
       "path": "uritect_app/lib/pages/overall_results_page.dart",
-      "sha256": "798d04c67c99603720cce59a88ca7c565c8febeea904f984340f87f27ad973e0"
+      "sha256": "f1bacd215dd412500f2879d0756c3f634f55571ca7b68298f7e4abc1f7d85746"
     },
     {
       "path": "uritect_app/lib/pages/performance_notes_page.dart",
@@ -535,11 +551,11 @@
     },
     {
       "path": "uritect_app/lib/pages/renal_results_page.dart",
-      "sha256": "06b29b9ecbb98fc421fdce0737efffa1c40b86ec33269ddbd74623fc9e36c50c"
+      "sha256": "5562fdf2aea0316506e47b290265dcd0025604a037f29e4b16622dea832afceb"
     },
     {
       "path": "uritect_app/lib/pages/results_page.dart",
-      "sha256": "dfd5ad453e327c879f069254aaba1d4e7d40ee990dc55f79019cbcc4015bfdee"
+      "sha256": "9c4ad95e9a9efe081af6cf07758fb6381c82c51a851c29ec2f112994939929ee"
     },
     {
       "path": "uritect_app/lib/pages/root_page.dart",
@@ -547,7 +563,7 @@
     },
     {
       "path": "uritect_app/lib/pages/symptom_checklist_page.dart",
-      "sha256": "d9834bb95553583830c515b4fa6c72c8dce74dc854ec9ed657ac790ceb92ebb0"
+      "sha256": "b1a7b20fbb002d7419961ea61e1e4856f8bf02ce51de78baf0d1103df0068e25"
     },
     {
       "path": "uritect_app/lib/services/history_cipher.dart",
@@ -591,7 +607,11 @@
     },
     {
       "path": "uritect_app/lib/widgets/dipstick_results_table.dart",
-      "sha256": "e79b579d68e21b15f3998c46874f995682c482c47b5cc73f3fb165b9d28853c6"
+      "sha256": "26e14251f9ecbcd6570ccb18cda6e6b7c74551a5bc8229496ca3905b0df099f4"
+    },
+    {
+      "path": "uritect_app/lib/widgets/research_details.dart",
+      "sha256": "3dfc112ace15e2fb29b8b6d9dec1acc9c1688bdada6b231c21f2bcceeaf61ac2"
     },
     {
       "path": "uritect_app/lib/widgets/scan_camera_preview.dart",
@@ -599,11 +619,11 @@
     },
     {
       "path": "uritect_app/lib/widgets/scan_context_notice.dart",
-      "sha256": "bc73846a90d43955c483264e9bda6a03c369052f2654182707bc28eb87ef4268"
+      "sha256": "11f2df419e0376ca451d94cfda93f98de7524681c4f0c87afb145151df6c0f95"
     },
     {
       "path": "uritect_app/lib/widgets/scan_provenance_dialog.dart",
-      "sha256": "c15ffd83904974b4402099dd67261e18033c8433c44e9cab3bf5be69de2e5d71"
+      "sha256": "17dca4bf68e8383fd4cc0aeb147717695a66409e3b7476518dc4bb9805f95571"
     },
     {
       "path": "uritect_app/lib/widgets/strip_analysis_animation.dart",
@@ -619,11 +639,11 @@
     },
     {
       "path": "uritect_app/pubspec.yaml",
-      "sha256": "592a362dedb05e2211e195151022454f68374afb11b7be50d1c192197d2c5d33"
+      "sha256": "c2fa2c05bfe7ddb07df857d0258f3dd65b87d248c9e20807eefbd6be26c7ff4c"
     },
     {
       "path": "uritect_app/test/bayesian_workflow_ui_test.dart",
-      "sha256": "5d08fbce47246c49406b581ab154efd742083381b6987c09c48548e5a0ad1e17"
+      "sha256": "2b5ac4c635e72ef5cbbad4d15d4173dbc36d37dd7130b5bb33f03ab061c3ef0f"
     },
     {
       "path": "uritect_app/test/capture_lifecycle_test.dart",
@@ -631,11 +651,11 @@
     },
     {
       "path": "uritect_app/test/dashboard_return_navigation_test.dart",
-      "sha256": "4a675ec8c9e95e24157b8c29d06f40f3dadd80bcefc782ac552e57095f3cd5e0"
+      "sha256": "3ed440952034923e847b4b4f119369d0c6bd9f3936fa3d17d1fc10e14da47247"
     },
     {
       "path": "uritect_app/test/dashboard_ui_test.dart",
-      "sha256": "22b4b66e9642f4c4169524532dadbef4cf790fdf1079b9ccadec86019bf9f166"
+      "sha256": "f2a7a92aa1c1c4e1515cb3ced007db522ed225a105e7b1636f482cabc242ae35"
     },
     {
       "path": "uritect_app/test/fixtures/cabatuan_028_cool.jpg",
@@ -655,15 +675,19 @@
     },
     {
       "path": "uritect_app/test/goldens/bayesian_results_phone.png",
-      "sha256": "5c579de4e46160463021a2f90667b78433447ed5acb1fcb9f5ee195e15f50d61"
+      "sha256": "2815d3b2e13a89a535e8048e530cd35a125211ca9eb4786f90aab4b050166daa"
     },
     {
       "path": "uritect_app/test/goldens/dashboard_phone.png",
-      "sha256": "cafeb6a31c772f2dfd836dc52a7b6b904cf50bf09e1134f58832f0d2875cb201"
+      "sha256": "cbc7c7bec745e0a7c999da9d95e04ebf03d25db462a52e1e79319b58f8a99d4f"
     },
     {
       "path": "uritect_app/test/goldens/dipstick_readings_phone.png",
-      "sha256": "3b42297a969a340e1eb9226d07472df002fdcef85312c5de52e5555080a8f492"
+      "sha256": "baa6d3e2fe8d71265b8ba63aa24c48b3034595665d8d60bdaac3bacce1d6adf0"
+    },
+    {
+      "path": "uritect_app/test/goldens/kidney_followup_phone.png",
+      "sha256": "34a54c084de36578b5c09f1a005c6619040a58dd92b55204756cae1fc00634b6"
     },
     {
       "path": "uritect_app/test/goldens/strip_analysis_phone.png",
@@ -694,6 +718,10 @@
       "sha256": "f48767a94b537a13521aec55786d62c3c14afa839ee93409029a3f1c8e8b1022"
     },
     {
+      "path": "uritect_app/test/patient_friendly_ui_test.dart",
+      "sha256": "5ed2de63169121d64f50f06b92e2dd1ca465bdb84e055ae6f252020410fc06d8"
+    },
+    {
       "path": "uritect_app/test/photo_quality_check_test.dart",
       "sha256": "f16ea86e3b22dc1ed3c48f43665b37463276cf909ef32329ce762a98bda60a17"
     },
@@ -707,11 +735,11 @@
     },
     {
       "path": "uritect_app/test/provenance_and_history_ui_test.dart",
-      "sha256": "ba06c46e325099799dff9001f9833d916ecdda6ff770363029a8cbe275b76684"
+      "sha256": "80cd85c905cc5e4c70e58ced592f0e9bbd1b7325a1cf0270293630759aaa6452"
     },
     {
       "path": "uritect_app/test/provisional_readings_test.dart",
-      "sha256": "e76ec2e41356d0b3b4c10a6fa1475936d74fe5c14dac1354cc3c0aef4c8c3969"
+      "sha256": "ccb1633d532675e0df93a8396b76271c4bb4b03b48b3b4277046e8a9ce9be84f"
     },
     {
       "path": "uritect_app/test/renal_followup_test.dart",
@@ -727,7 +755,7 @@
     },
     {
       "path": "uritect_app/test/scan_rejection_reporting_test.dart",
-      "sha256": "3d3f7353a014f532c5e5fe8b4a510d1638f4f0706d7117e53f0efc46cf8c79b8"
+      "sha256": "3c8cbb932872362d9cd15cde64b730c327fa9e56e10e93ccdf1d8acdc73043f9"
     },
     {
       "path": "uritect_app/test/scan_retake_navigation_test.dart",

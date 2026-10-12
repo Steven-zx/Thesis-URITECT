@@ -10,7 +10,7 @@ import '../services/history_cipher.dart';
 import '../widgets/common_widgets.dart';
 import 'capture_dipstick_page.dart';
 import 'protected_history_page.dart';
-import 'performance_notes_page.dart';
+import 'about_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -178,7 +178,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        const AppLogo(size: 48),
+        const AppLogo(size: 64),
         const SizedBox(width: 12),
         Expanded(
           child: Column(
@@ -192,22 +192,14 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                   fontSize: 18,
                 ),
               ),
-              const SizedBox(height: 2),
-              Text(
-                'Your offline screening workspace',
-                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                  color: AppColors.textSecondary,
-                  fontSize: 12,
-                ),
-              ),
             ],
           ),
         ),
         IconButton(
-          tooltip: 'Research performance and limits',
-          onPressed: () => Navigator.of(context).push(
-            MaterialPageRoute(builder: (_) => const PerformanceNotesPage()),
-          ),
+          tooltip: 'About URITECT',
+          onPressed: () => Navigator.of(
+            context,
+          ).push(MaterialPageRoute(builder: (_) => const AboutPage())),
           icon: const Icon(Icons.info_outline),
         ),
       ],
@@ -280,11 +272,6 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                 child: Text('START SCAN'),
               ),
             ),
-          ),
-          const SizedBox(height: 12),
-          Text(
-            'Photo / Strip readings / Safety checklist',
-            style: Theme.of(context).textTheme.bodySmall,
           ),
         ],
       ),
@@ -633,14 +620,15 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       clipBehavior: Clip.antiAlias,
       child: const ExpansionTile(
         leading: Icon(Icons.checklist_rounded, color: AppColors.primaryMain),
-        title: Text('Before you scan'),
-        subtitle: Text('A quick photo and timing checklist'),
+        title: Text('Before You Scan'),
+        subtitle: Text('Tips for accurate results'),
         shape: Border(),
         collapsedShape: Border(),
         childrenPadding: EdgeInsets.fromLTRB(20, 0, 20, 18),
         children: [
           Text(
-            'Show all ten pads and the handle on a plain background. Use even lighting without glare. Tap the pads to focus and hold steady. Record the actual time after dipping: pads have different reading times.',
+            '• Show all ten pads and the handle.\n• Use a plain background and even light.\n• Tap to focus and hold steady.\n• Follow the strip’s reading times.',
+            textAlign: TextAlign.left,
           ),
         ],
       ),
