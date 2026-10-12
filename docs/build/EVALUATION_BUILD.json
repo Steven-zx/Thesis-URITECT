@@ -1,8 +1,8 @@
 {
-  "version": "1.5.14+31",
-  "apk": "output/device_pilot/2026-10-12/1.5.14+31/Uritect_v1.5.14+31_release.apk",
-  "bytes": 56779127,
-  "sha256": "0CA45708DA6097ADF080915663388478B2B39BEFA2380B03D320C774F98D6780",
+  "version": "1.5.15+33",
+  "apk": "output/device_pilot/2026-10-12/1.5.15+33/Uritect_v1.5.15+33_release.apk",
+  "bytes": 56779279,
+  "sha256": "446D00392B0FA18AA59F2B867ACF84A172329C6CA38257DA120ADA1CD8C1FFF7",
   "certificate_sha256": "15D1138DCE077ADA624A140B3A145343D1A48305FD0847E9002869E488F19D39",
   "source_matches_archive": true,
   "embedded_assets": {
@@ -11,22 +11,52 @@
   },
   "offline_permissions_verified": true,
   "verification": {
-    "app_version": "1.5.14+31",
+    "app_version": "1.5.15+33",
     "flutter_tests": {
-      "passed": 148,
-      "command": "flutter test --no-pub"
+      "passed": 156,
+      "command": "flutter test --no-pub",
+      "note": "Full suite passed; final logo/glyph layout checks passed afterward; subsequent source change only added required braces and bumped build code."
     },
     "static_analysis": {
       "result": "No issues found",
       "exit_code": 0
     },
     "python_tests": {
-      "scope": "Unchanged classifier/feature tests; last full run 52 passed for 1.5.13+30; not repeated for typography"
+      "scope": "Classifier and feature extraction assets unchanged; earlier full pipeline result 52 passed."
     },
-    "ui_review": "Actual bundled Poppins faces loaded for phone goldens; result, Bayesian and photo overlay images inspected; small-screen/reduced-motion checks passed",
-    "typography": "Poppins Bold 700 headings, SemiBold 600 sections, Regular 400 body; offline native font registration",
-    "phone_acceptance": "pending; this APK not installed",
-    "independent_clinical_validation": "not established"
+    "ui_review": "Real Poppins phone dashboard/results/photo-overlay goldens visually inspected; 280 px width and 180% text checks passed.",
+    "image_quality": "Early dark, overexposed, blank and blur rejection tested before localization; thresholds retained; quality screening is not validation of reagent interpretation.",
+    "benchmark": {
+      "before": {
+        "fixture": "test/fixtures/urs10t_handle_reference.jpg",
+        "runs_ms": [
+          2529,
+          2275,
+          2386
+        ],
+        "scope": "Host Flutter test runtime, warm runs, same fixture; not Android device latency",
+        "median_ms": 2386
+      },
+      "after": {
+        "fixture": "test/fixtures/urs10t_handle_reference.jpg",
+        "runs_ms": [
+          2383,
+          2141,
+          2128
+        ],
+        "scope": "Host Flutter test runtime, warm runs, same fixture; not Android device latency",
+        "median_ms": 2141
+      },
+      "median_reduction_percent": 10.27,
+      "limits": "One fixed deidentified photo, three warm host runs each, non-isolated host load; not device latency or clinical accuracy."
+    },
+    "phone_acceptance": "pending; no installed-device result for this APK",
+    "independent_clinical_validation": "not established",
+    "post_lint_quality_tests": {
+      "passed": 5,
+      "command": "flutter test --no-pub test/photo_quality_check_test.dart"
+    },
+    "classifier_asset_unchanged": true
   },
   "purpose": "Frozen developer-evaluation research prototype; existing experimental classifier retained after focused audit",
   "clinical_validation_established": false,

@@ -1,0 +1,10 @@
+{
+  "app_version": "1.5.15+33",
+  "frozen_app_source_drift": [],
+  "owner_checkout_flutter_tests_passed": 156,
+  "owner_checkout_static_analysis": "No issues found",
+  "owner_final_quality_tests_passed": 5,
+  "owner_final_dashboard_tests_passed": 2,
+  "flutter_suite_repeated_in_this_checkout": false,
+  "phone_acceptance": "pending"
+}

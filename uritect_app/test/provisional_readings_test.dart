@@ -126,7 +126,11 @@ void main() {
       MaterialApp(home: ResultsPage(scanResult: weak('pH'))),
     );
     expect(find.text('6.5'), findsOneWidget);
-    expect(find.text('Vote confidence: 20% ? provisional'), findsOneWidget);
+    expect(find.textContaining('Low confidence'), findsOneWidget);
+    await tester.ensureVisible(find.text('pH'));
+    await tester.tap(find.text('pH'));
+    await tester.pumpAndSettle();
+    expect(find.text('Vote confidence: 20% · provisional'), findsOneWidget);
     expect(find.text('CONTINUE TO CHECKLIST'), findsOneWidget);
   });
 }

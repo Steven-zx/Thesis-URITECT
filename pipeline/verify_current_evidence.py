@@ -36,6 +36,9 @@ def main():
             pending.append(key + ': review must identify the frozen APK')
         if not review.get('evidence'): pending.append(key + ': signed evidence missing')
         pending += verify_entries(ROOT, review.get('evidence', []))
+    for key, review in record['reviews'].items():
+        if not review.get('repository_commit_release_tag_or_version_reviewed'):
+            pending.append(key + ': repository commit, release tag, or version reviewed is missing')
     result = {'version':version, 'artifact_integrity_passed':not errors,
               'engineering_errors':errors, 'external_acceptance_gaps':pending,
               'full_evidence_gaps_closed':not errors and not pending,

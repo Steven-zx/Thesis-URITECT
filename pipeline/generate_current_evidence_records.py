@@ -76,6 +76,7 @@ def main():
             } for i in range(2)],
             'physical_strip': physical,
             'reviews': {key: {'status': 'pending', 'reviewer': None, 'credentials': None,
+                             'repository_commit_release_tag_or_version_reviewed': None,
                              'date': None, 'apk_sha256': receipt['sha256'],
                              'decisions': [], 'evidence': []}
                         for key in ['medtech_1','medtech_2','medtech_3','physician','statistician','usability_evaluation']},

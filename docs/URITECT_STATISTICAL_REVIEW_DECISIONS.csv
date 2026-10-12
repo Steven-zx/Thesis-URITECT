@@ -1,5 +1,5 @@
-build,issue,decision,reviewer,credentials,date,rationale,source_or_evidence,apk_sha256
-1.5.14+31,Female symptom and dipstick LR multiplication,PENDING,,,,,,0CA45708DA6097ADF080915663388478B2B39BEFA2380B03D320C774F98D6780
-1.5.14+31,Male residual branches after stronger branch exclusions,PENDING,,,,,,0CA45708DA6097ADF080915663388478B2B39BEFA2380B03D320C774F98D6780
-1.5.14+31,Male younger subgroup prior and broader LR transportability,PENDING,,,,,,0CA45708DA6097ADF080915663388478B2B39BEFA2380B03D320C774F98D6780
-1.5.14+31,Required outcomes and protocol before calibration claims,PENDING,,,,,,0CA45708DA6097ADF080915663388478B2B39BEFA2380B03D320C774F98D6780
+build,issue,decision,reviewer,credentials,date,rationale,source_or_evidence,apk_sha256,repository_commit_release_tag_or_version_reviewed
+1.5.15+33,Female symptom and dipstick LR multiplication,PENDING,,,,,,446D00392B0FA18AA59F2B867ACF84A172329C6CA38257DA120ADA1CD8C1FFF7,
+1.5.15+33,Male residual branches after stronger branch exclusions,PENDING,,,,,,446D00392B0FA18AA59F2B867ACF84A172329C6CA38257DA120ADA1CD8C1FFF7,
+1.5.15+33,Male younger subgroup prior and broader LR transportability,PENDING,,,,,,446D00392B0FA18AA59F2B867ACF84A172329C6CA38257DA120ADA1CD8C1FFF7,
+1.5.15+33,Required outcomes and protocol before calibration claims,PENDING,,,,,,446D00392B0FA18AA59F2B867ACF84A172329C6CA38257DA120ADA1CD8C1FFF7,

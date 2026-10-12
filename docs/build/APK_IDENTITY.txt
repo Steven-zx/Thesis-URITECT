@@ -1,4 +1,4 @@
-package: name='ph.edu.wvsu.uritect' versionCode='31' versionName='1.5.14' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+package: name='ph.edu.wvsu.uritect' versionCode='33' versionName='1.5.15' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
 sdkVersion:'24'
 targetSdkVersion:'36'
 uses-permission: name='android.permission.CAMERA'

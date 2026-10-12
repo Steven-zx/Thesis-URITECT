@@ -1,5 +1,5 @@
 {
-  "version": "1.5.14+31",
+  "version": "1.5.15+33",
   "artifact_integrity_passed": true,
   "engineering_errors": [],
   "external_acceptance_gaps": [
@@ -252,7 +252,13 @@
     "manuscript: NOT VERIFIED - supporting evidence not located",
     "clinical_outcome_study: NOT VERIFIED - supporting evidence not located",
     "medtech_3: planned content review pending",
-    "medtech_3: signed evidence missing"
+    "medtech_3: signed evidence missing",
+    "medtech_1: repository commit, release tag, or version reviewed is missing",
+    "medtech_2: repository commit, release tag, or version reviewed is missing",
+    "medtech_3: repository commit, release tag, or version reviewed is missing",
+    "physician: repository commit, release tag, or version reviewed is missing",
+    "statistician: repository commit, release tag, or version reviewed is missing",
+    "usability_evaluation: repository commit, release tag, or version reviewed is missing"
   ],
   "full_evidence_gaps_closed": false,
   "clinical_deployment_ready": false,

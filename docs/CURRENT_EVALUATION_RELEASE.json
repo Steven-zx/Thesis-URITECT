@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "version": "1.5.14+31",
+  "version": "1.5.15+33",
   "status": "signed_research_candidate_pending_device_and_external_evidence",
   "apk": {
-    "path": "output/device_pilot/2026-10-12/1.5.14+31/Uritect_v1.5.14+31_release.apk",
-    "bytes": 56779127,
-    "sha256": "0CA45708DA6097ADF080915663388478B2B39BEFA2380B03D320C774F98D6780"
+    "path": "output/device_pilot/2026-10-12/1.5.15+33/Uritect_v1.5.15+33_release.apk",
+    "bytes": 56779279,
+    "sha256": "446D00392B0FA18AA59F2B867ACF84A172329C6CA38257DA120ADA1CD8C1FFF7"
   },
   "build_receipt": {
-    "path": "output/device_pilot/2026-10-12/1.5.14+31/EVALUATION_BUILD.json",
-    "bytes": 1930,
-    "sha256": "EB96DDD3D4F9AEB152FECAE4879A63843C0291385BBF27263CA58FF7163126E7"
+    "path": "output/device_pilot/2026-10-12/1.5.15+33/EVALUATION_BUILD.json",
+    "bytes": 3132,
+    "sha256": "2757305B099CA4FAC3CAEFF056A204904143E8B0D89FF2D99629B3A41A3073AD"
   },
   "source_snapshot": {
-    "path": "output/device_pilot/2026-10-12/1.5.14+31/SOURCE_SNAPSHOT.json",
-    "bytes": 25904,
-    "sha256": "6141FC5B2752209DF390CCFEF62A559B27D8B2A342A29D5071D927E862433330"
+    "path": "output/device_pilot/2026-10-12/1.5.15+33/SOURCE_SNAPSHOT.json",
+    "bytes": 26834,
+    "sha256": "B660B86E8BEEC9CFB24D019C3F448149D2FB37AC6F68DA84EE1C48AA4ED71C8C"
   },
   "source_archive": {
-    "path": "output/device_pilot/2026-10-12/1.5.14+31/URITECT_SOURCE_SNAPSHOT.zip",
-    "bytes": 6545049,
-    "sha256": "B2EA91B375B4E8A07FA555BAE59568895405F2C1F8C657C0D3D82CF3DD4DDD02"
+    "path": "output/device_pilot/2026-10-12/1.5.15+33/URITECT_SOURCE_SNAPSHOT.zip",
+    "bytes": 6609548,
+    "sha256": "E2958AD545748D098CFCA986B72A181A57631B2CCE90281060F0D541ECE4F9B6"
   },
   "model": {
     "path": "uritect_app/assets/production_semiquant_model.json",

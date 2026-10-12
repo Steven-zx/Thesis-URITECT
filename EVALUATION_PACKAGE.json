@@ -1,6 +1,6 @@
 {
-  "version": "1.5.14+31",
-  "frozen_app_files_verified": 135,
+  "version": "1.5.15+33",
+  "frozen_app_files_verified": 140,
   "pipeline_modules": [
     "build_final_release_manifest",
     "focused_pad_geometry",
@@ -31,7 +31,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "cfaf85031476845e3e7b2460a57e9bccaa0e147e96e000598e5f26ffc782aead"
+      "sha256": "729c42fa3088ac29f11f915803144e3fffbd1d2e52dabaaba80b71b42b3d471a"
     },
     {
       "path": "docs/CLEAN_REPO_VERIFICATION.json",
@@ -46,24 +46,32 @@
       "sha256": "5e0168934ae1b1bc601552a19d9d3a5de9caf9f1bccaea11ebb420456ad1b79b"
     },
     {
+      "path": "docs/CLEAN_REPO_VERIFICATION_1.5.15.json",
+      "sha256": "bd982715e3a6b7874f257ed80d797a80dea9751ae03ddfcd3c1191965ec22196"
+    },
+    {
       "path": "docs/CURRENT_EVALUATION_RELEASE.json",
-      "sha256": "144e1996589b0ec1c942c627aeeb1c23f385567d004fe8791063a47a5e3580d7"
+      "sha256": "8d0c1bbe11ccc02ad64eedccebb2767a32a889aeef5a5c49c07ccc5c561fd32e"
+    },
+    {
+      "path": "docs/DEVELOPER_EVALUATION_REVIEW_FORM.md",
+      "sha256": "7ccc828a919d47cbebdd9f166d6ac5179de6d90c85f3474987e0d4f44e32fa00"
     },
     {
       "path": "docs/EVALUATION_GUIDE.md",
-      "sha256": "1df3ae246d6764aa00f08e2eb2c83a9ab32f534ca884d085ac98ce966d7f9655"
+      "sha256": "c22cd73d6bfa1e8d4bafbf997ca40d35b8816e8d91e313f789a30913c55b0012"
     },
     {
       "path": "docs/MANUSCRIPT_FINAL_REVISION_GUIDE.md",
-      "sha256": "810a355c1f0d384ec7641629f009021de789f8dc4dd71e078753d6282a7efcc0"
+      "sha256": "026b34aa4624603429daab1b2032f67541e79343cf8dbeef7e192eebd1b27524"
     },
     {
       "path": "docs/URITECT_CURRENT_ACCEPTANCE_RECORD.json",
-      "sha256": "499d4b7399815b67f84d9997d7829ba048392ad2dfa918e13629431da5ab92db"
+      "sha256": "9161268a06e05f64353c1c8b880c704f4a06f0055963beed5c25779937854ed8"
     },
     {
       "path": "docs/URITECT_EVALUATION_DEVICE_CHECKLIST.csv",
-      "sha256": "812f51396c9ae17d65da4e5e55d94c112b9dd810168d11bcbbcce55e8e574ea7"
+      "sha256": "868fc954490781bf9aa245fd3fa1f247949cf76395b025f585d1f5cdea257a53"
     },
     {
       "path": "docs/URITECT_EVIDENCE_GAP_REMEDIATION_2026-10-12.md",
@@ -71,7 +79,7 @@
     },
     {
       "path": "docs/URITECT_EVIDENCE_STATUS.json",
-      "sha256": "5f96edaafc64ca397ebb62d33793fc8318c7c05be912449d04a7a17fe9f3e42b"
+      "sha256": "17d29ea3972d557d5f76c9de8b9ecf0d5b0a22fbc1caf69e940c41f697eb927a"
     },
     {
       "path": "docs/URITECT_FINAL_PAD_ORDER.json",
@@ -80,6 +88,10 @@
     {
       "path": "docs/URITECT_FINAL_PAD_ORIENTATION.md",
       "sha256": "bcba2acfb219f887e775dd7cc95e3ec137fb35b27472561c55ea5a7f62c2101a"
+    },
+    {
+      "path": "docs/URITECT_IT_EXPERT_RECOMMENDATIONS_2026-10-12.md",
+      "sha256": "856fd619d75f5721ea4900c3329b9a7a8b6b799c4692b3de7229e6a8239b4e7a"
     },
     {
       "path": "docs/URITECT_OPENING_SCREEN_RESTORED_2026-10-12.md",
@@ -103,11 +115,11 @@
     },
     {
       "path": "docs/URITECT_STATISTICAL_AND_EXPERT_REVIEW_PACKET.md",
-      "sha256": "71133418c9ea3c837d07dbbe1d5414554d7736c11faa725aa9d550c511cdbe72"
+      "sha256": "04cc9272459d70d7be61c141fe99317bda8837372340ecf062106a07d9e90aa8"
     },
     {
       "path": "docs/URITECT_STATISTICAL_REVIEW_DECISIONS.csv",
-      "sha256": "29afad49025e0317a1a4e0ab8e821d428ede7c7d02c9399e8fd67298c95f8f56"
+      "sha256": "baa69457cb5ca517c1ccb8e1be9bf7b5c3a1c21f41a752ccf3e1825507a94719"
     },
     {
       "path": "docs/URITECT_UNRESOLVED_EVIDENCE_GAPS.pdf",
@@ -119,7 +131,7 @@
     },
     {
       "path": "docs/build/APK_IDENTITY.txt",
-      "sha256": "22ffbe3bf7cd038225e8a93a3b3a7793c96ee6f91377ddb3c3fde39d514d7b7e"
+      "sha256": "e3dfd8765715eb6cac064bfe6e2c39c3a9b96e509a9e68e4820948a6747faac0"
     },
     {
       "path": "docs/build/APK_PERMISSIONS.txt",
@@ -127,19 +139,23 @@
     },
     {
       "path": "docs/build/EVALUATION_BUILD.json",
-      "sha256": "eb96ddd3d4f9aeb152fecae4879a63843c0291385bbf27263ca58ff7163126e7"
+      "sha256": "2757305b099ca4fac3caeff056a204904143e8b0d89ff2d99629b3a41a3073ad"
+    },
+    {
+      "path": "docs/build/SCAN_LATENCY_BENCHMARK.json",
+      "sha256": "4e5e09a446f7ba65b945ec0e1511028d6430e711c49aff2469e08697b43cb2f8"
     },
     {
       "path": "docs/build/SHA256SUMS.txt",
-      "sha256": "7478fb9f1998b59d62a0b862cea88985756d4cb789221ce5baf02239b41583bf"
+      "sha256": "3482ae33bf88e5bb1f751d7fadd37c895638445e5069a260368c1d21ebacfe43"
     },
     {
       "path": "docs/build/SOURCE_SNAPSHOT.json",
-      "sha256": "6141fc5b2752209df390ccfef62a559b27d8b2a342a29d5071d927e862433330"
+      "sha256": "b660b86e8beec9cfb24d019c3f448149d2fb37ac6f68da84ee1c48aa4ed71c8c"
     },
     {
       "path": "docs/build/VERIFICATION.json",
-      "sha256": "7da70b0666127dabd128c8151c5bb1e402b038b40117b33a2187cb1f1dccf3a7"
+      "sha256": "8723638e369b1c0c109414cccb0d1072421142d64803a353edb55c29bf1d46c8"
     },
     {
       "path": "docs/performance/GROUPED_EXPERIMENT.md",
@@ -163,7 +179,7 @@
     },
     {
       "path": "pipeline/generate_current_evidence_records.py",
-      "sha256": "35a1816f3a424e7110e6e63a1c6a41f3b3d93a5605915db94fd25e98f1d45b83"
+      "sha256": "f99be8f61f608bad387420fc0b06e6a2424954d2e769e6360a7904f17b2cd9b0"
     },
     {
       "path": "pipeline/markerless_strip.py",
@@ -203,7 +219,7 @@
     },
     {
       "path": "pipeline/verify_current_evidence.py",
-      "sha256": "f7564fb4551a2a85c86a4abd3a324fe150ca57b8338fef24720a472fcfd03fde"
+      "sha256": "2af5584eddacf1ee70225876fbbbc32446b879e1848729bbacf9c362decf603d"
     },
     {
       "path": "pipeline/verify_final_release_manifest.py",
@@ -483,7 +499,7 @@
     },
     {
       "path": "uritect_app/lib/pages/analyzing_page.dart",
-      "sha256": "0106a1f24f6c201102466cf7adf6e6a8472dd5cb8d121264085eb353a84fd864"
+      "sha256": "8397f1ec8095996a2605873de6b1ad84becb8ce0b97b2e076682d0527e2d793c"
     },
     {
       "path": "uritect_app/lib/pages/app_splash_page.dart",
@@ -499,7 +515,7 @@
     },
     {
       "path": "uritect_app/lib/pages/home_page.dart",
-      "sha256": "5951590ac5035d698fcc2c67a65f98546af5d89044104d9f18523c6aa4f7d332"
+      "sha256": "872c3610f810eda5ef3b778b8f7ae7b24f9417e78b4a8d5adb2ef2d8e54885d2"
     },
     {
       "path": "uritect_app/lib/pages/landing_page.dart",
@@ -527,7 +543,7 @@
     },
     {
       "path": "uritect_app/lib/pages/root_page.dart",
-      "sha256": "7c633260d0ce13b0ebaee5f39a50b90a948bb86203d693b9e97b66ef394c82c9"
+      "sha256": "7a845db2f165aa16230028a0dd19f35db974fd2f261bef63ceb95cc24e97b442"
     },
     {
       "path": "uritect_app/lib/pages/symptom_checklist_page.dart",
@@ -539,7 +555,11 @@
     },
     {
       "path": "uritect_app/lib/services/local_scan_analysis_service.dart",
-      "sha256": "fc17467c6ad889b4d5f01a7d24252a68eae38041be329a9f8abda217bea4be69"
+      "sha256": "9735bbd77a7e10985b82f9ecbd8f159ca8fa9b181012949f627bee1010e6b52c"
+    },
+    {
+      "path": "uritect_app/lib/services/photo_quality_check.dart",
+      "sha256": "e2c7b89930f63ca6d4920ed21e3a6055062e30c1019b929bea4c1625e7539444"
     },
     {
       "path": "uritect_app/lib/services/runtime_pad_features.dart",
@@ -571,7 +591,7 @@
     },
     {
       "path": "uritect_app/lib/widgets/dipstick_results_table.dart",
-      "sha256": "2c06b53c3d5cd8d5b946e2959ffe00cf4d27b82ee5831c8b883ceb1c7a28d776"
+      "sha256": "e79b579d68e21b15f3998c46874f995682c482c47b5cc73f3fb165b9d28853c6"
     },
     {
       "path": "uritect_app/lib/widgets/scan_camera_preview.dart",
@@ -599,7 +619,7 @@
     },
     {
       "path": "uritect_app/pubspec.yaml",
-      "sha256": "eb0ef141228da62daec106d159db0076258187580d6135e47f07f436cabcf335"
+      "sha256": "592a362dedb05e2211e195151022454f68374afb11b7be50d1c192197d2c5d33"
     },
     {
       "path": "uritect_app/test/bayesian_workflow_ui_test.dart",
@@ -611,7 +631,11 @@
     },
     {
       "path": "uritect_app/test/dashboard_return_navigation_test.dart",
-      "sha256": "9de2be6af6c9b41926a8f162a1ec50a017a80597836cb36d7054db1b5a14a178"
+      "sha256": "4a675ec8c9e95e24157b8c29d06f40f3dadd80bcefc782ac552e57095f3cd5e0"
+    },
+    {
+      "path": "uritect_app/test/dashboard_ui_test.dart",
+      "sha256": "22b4b66e9642f4c4169524532dadbef4cf790fdf1079b9ccadec86019bf9f166"
     },
     {
       "path": "uritect_app/test/fixtures/cabatuan_028_cool.jpg",
@@ -634,8 +658,12 @@
       "sha256": "5c579de4e46160463021a2f90667b78433447ed5acb1fcb9f5ee195e15f50d61"
     },
     {
+      "path": "uritect_app/test/goldens/dashboard_phone.png",
+      "sha256": "cafeb6a31c772f2dfd836dc52a7b6b904cf50bf09e1134f58832f0d2875cb201"
+    },
+    {
       "path": "uritect_app/test/goldens/dipstick_readings_phone.png",
-      "sha256": "a36f7cbbb2eb435d83ffd8d798da5a331aa9d8bbc8ac7778f4743e4c1022fc27"
+      "sha256": "3b42297a969a340e1eb9226d07472df002fdcef85312c5de52e5555080a8f492"
     },
     {
       "path": "uritect_app/test/goldens/strip_analysis_phone.png",
@@ -643,7 +671,7 @@
     },
     {
       "path": "uritect_app/test/goldens/strip_analysis_photo_overlay.png",
-      "sha256": "1c7aba0429faf32d57096ad5777a07d8cf7f60b01113bb6aeb7dd0e08b5b3001"
+      "sha256": "5a5bf3cfb4a524f588591667bdd132bed0098ed50073e2ac157bab612cee683f"
     },
     {
       "path": "uritect_app/test/history_authentication_test.dart",
@@ -666,6 +694,10 @@
       "sha256": "f48767a94b537a13521aec55786d62c3c14afa839ee93409029a3f1c8e8b1022"
     },
     {
+      "path": "uritect_app/test/photo_quality_check_test.dart",
+      "sha256": "f16ea86e3b22dc1ed3c48f43665b37463276cf909ef32329ce762a98bda60a17"
+    },
+    {
       "path": "uritect_app/test/progressive_checklist_test.dart",
       "sha256": "4f6e928dbd80e3cdafa87ab83df8a55a6258b1e49645906ae809ec6fe2866d0d"
     },
@@ -679,7 +711,7 @@
     },
     {
       "path": "uritect_app/test/provisional_readings_test.dart",
-      "sha256": "3e4ba300a640e0c1b8855b3ccb4d55b84e382fd964b53536be17d191dad38c35"
+      "sha256": "e76ec2e41356d0b3b4c10a6fa1475936d74fe5c14dac1354cc3c0aef4c8c3969"
     },
     {
       "path": "uritect_app/test/renal_followup_test.dart",
@@ -711,7 +743,7 @@
     },
     {
       "path": "uritect_app/test/strip_analysis_animation_test.dart",
-      "sha256": "46d7eb97886b8720f5b7b23f78e75386fe63112db3eb503e5f7b5757a7ae1424"
+      "sha256": "cf166a4c96b90164b93403de3efda0cf6e4039345af78a48c307041f068151d0"
     },
     {
       "path": "uritect_app/test/strip_reading_schedule_test.dart",
@@ -752,6 +784,10 @@
     {
       "path": "uritect_app/tool/photo_overlay_geometry_test.dart",
       "sha256": "26ccaa2fc3cb66896433ec620688a9cd1ae51e4626d8a67a63f3b8b8d6c67bec"
+    },
+    {
+      "path": "uritect_app/tool/scan_latency_benchmark_test.dart",
+      "sha256": "d3a8184c1d94a548723b1d64cb3c3f311d45c5921153caa46103bb8538ef17dd"
     },
     {
       "path": "uritect_app/tool/support_scan_regression_test.dart",

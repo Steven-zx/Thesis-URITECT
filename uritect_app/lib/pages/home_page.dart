@@ -154,18 +154,18 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       backgroundColor: AppColors.bgMain,
       body: SafeArea(
         child: SingleChildScrollView(
-          padding: const EdgeInsets.fromLTRB(12, 10, 12, 96),
+          padding: const EdgeInsets.fromLTRB(20, 16, 20, 28),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               _buildHeader(context),
-              const SizedBox(height: 26),
+              const SizedBox(height: 20),
               _buildReadyCard(context),
-              const SizedBox(height: 30),
+              const SizedBox(height: 24),
               _buildRecentScansHeader(context),
               const SizedBox(height: 12),
               _buildRecentScansList(context),
-              const SizedBox(height: 26),
+              const SizedBox(height: 20),
               _buildTipCard(context),
             ],
           ),
@@ -178,30 +178,31 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        const AppLogo(),
+        const AppLogo(size: 48),
         const SizedBox(width: 12),
-        Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              'Hi, Health Worker',
-              style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                color: AppColors.primaryMain,
-                fontWeight: FontWeight.w700,
-                fontSize: 18,
+        Expanded(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                'Welcome to URITECT',
+                style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                  color: AppColors.primaryMain,
+                  fontWeight: FontWeight.w700,
+                  fontSize: 18,
+                ),
               ),
-            ),
-            const SizedBox(height: 2),
-            Text(
-              'Good Morning!',
-              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: AppColors.textSecondary,
-                fontSize: 12,
+              const SizedBox(height: 2),
+              Text(
+                'Your offline screening workspace',
+                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                  color: AppColors.textSecondary,
+                  fontSize: 12,
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
-        const Spacer(),
         IconButton(
           tooltip: 'Research performance and limits',
           onPressed: () => Navigator.of(context).push(
@@ -215,182 +216,75 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
 
   Widget _buildReadyCard(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.fromLTRB(16, 18, 16, 16),
+      width: double.infinity,
+      padding: const EdgeInsets.all(22),
       decoration: BoxDecoration(
-        color: AppColors.bgCard,
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: AppColors.border),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withValues(alpha: 0.04),
-            blurRadius: 14,
-            offset: const Offset(0, 4),
-          ),
-        ],
+        gradient: const LinearGradient(
+          colors: [Color(0xFFE3F5F5), Color(0xFFF1FAFA)],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        ),
+        borderRadius: BorderRadius.circular(24),
+        border: Border.all(color: const Color(0xFFCDE8EA)),
       ),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
+          const Row(
             children: [
-              SizedBox(
-                width: 80,
-                height: 80,
-                child: Stack(
-                  alignment: Alignment.center,
-                  children: [
-                    Positioned(
-                      top: 0,
-                      left: 0,
-                      child: Container(
-                        width: 16,
-                        height: 16,
-                        decoration: const BoxDecoration(
-                          border: Border(
-                            top: BorderSide(
-                              color: AppColors.primaryMain,
-                              width: 3,
-                            ),
-                            left: BorderSide(
-                              color: AppColors.primaryMain,
-                              width: 3,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                    Positioned(
-                      top: 0,
-                      right: 0,
-                      child: Container(
-                        width: 16,
-                        height: 16,
-                        decoration: const BoxDecoration(
-                          border: Border(
-                            top: BorderSide(
-                              color: AppColors.primaryMain,
-                              width: 3,
-                            ),
-                            right: BorderSide(
-                              color: AppColors.primaryMain,
-                              width: 3,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                    Positioned(
-                      bottom: 0,
-                      left: 0,
-                      child: Container(
-                        width: 16,
-                        height: 16,
-                        decoration: const BoxDecoration(
-                          border: Border(
-                            bottom: BorderSide(
-                              color: AppColors.primaryMain,
-                              width: 3,
-                            ),
-                            left: BorderSide(
-                              color: AppColors.primaryMain,
-                              width: 3,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                    Positioned(
-                      bottom: 0,
-                      right: 0,
-                      child: Container(
-                        width: 16,
-                        height: 16,
-                        decoration: const BoxDecoration(
-                          border: Border(
-                            bottom: BorderSide(
-                              color: AppColors.primaryMain,
-                              width: 3,
-                            ),
-                            right: BorderSide(
-                              color: AppColors.primaryMain,
-                              width: 3,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                    Center(
-                      child: Image.asset(
-                        'assets/photos/dipstick icon.png',
-                        width: 50,
-                        height: 50,
-                        fit: BoxFit.contain,
-                      ),
-                    ),
-                  ],
-                ),
+              Icon(
+                Icons.wifi_off_rounded,
+                size: 16,
+                color: AppColors.primaryDark,
               ),
-              const SizedBox(width: 16),
+              SizedBox(width: 8),
               Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const SizedBox(height: 2),
-                    Text(
-                      'Ready to analyze?',
-                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                        color: AppColors.primaryMain,
-                        fontSize: 16,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                    const SizedBox(height: 8),
-                    Text(
-                      'Use your smartphone to\nanalyze urine dipstick and get\ninstant insight.',
-                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                        color: AppColors.textSecondary,
-                        height: 1.25,
-                        fontSize: 12,
-                      ),
-                    ),
-                  ],
+                child: Text(
+                  'OFFLINE SCREENING',
+                  style: TextStyle(
+                    fontSize: 11,
+                    letterSpacing: 1,
+                    fontWeight: FontWeight.w600,
+                    color: AppColors.primaryDark,
+                  ),
                 ),
               ),
             ],
           ),
-          const SizedBox(height: 16),
+          const SizedBox(height: 18),
+          Text(
+            'Start with a clear photo',
+            style: Theme.of(
+              context,
+            ).textTheme.headlineSmall?.copyWith(color: AppColors.primaryDark),
+          ),
+          const SizedBox(height: 8),
+          const Text(
+            'Capture or upload your dipstick, then complete the safety checklist.',
+          ),
+          const SizedBox(height: 20),
           SizedBox(
             width: double.infinity,
-            height: 48,
-            child: ElevatedButton.icon(
-              onPressed: () {
-                Navigator.of(context)
-                    .push(
-                      MaterialPageRoute(
-                        builder: (_) => const CaptureDipstickPage(),
-                      ),
-                    )
-                    .then((_) => _hideHistory());
+            child: FilledButton.icon(
+              onPressed: () async {
+                await Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (_) => const CaptureDipstickPage(),
+                  ),
+                );
+                if (mounted && _historyUnlocked) await _refreshHistory();
               },
-              icon: const Icon(Icons.photo_camera_outlined, size: 20),
-              label: const Text(
-                'START SCAN',
-                style: TextStyle(
-                  fontSize: 17,
-                  fontWeight: FontWeight.w700,
-                  letterSpacing: 0.3,
-                ),
-              ),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: AppColors.primaryMain,
-                foregroundColor: Colors.white,
-                elevation: 0,
-                shadowColor: Colors.transparent,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(18),
-                ),
+              icon: const Icon(Icons.camera_alt_outlined),
+              label: const Padding(
+                padding: EdgeInsets.symmetric(vertical: 12),
+                child: Text('START SCAN'),
               ),
             ),
+          ),
+          const SizedBox(height: 12),
+          Text(
+            'Photo / Strip readings / Safety checklist',
+            style: Theme.of(context).textTheme.bodySmall,
           ),
         ],
       ),
@@ -401,20 +295,22 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Text(
-          'Recent Scans',
-          style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-            fontSize: 16,
-            fontWeight: FontWeight.w600,
-            color: Colors.black87,
+        Expanded(
+          child: Text(
+            'Recent Scans',
+            style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+              fontSize: 16,
+              fontWeight: FontWeight.w600,
+              color: Colors.black87,
+            ),
           ),
         ),
-        GestureDetector(
-          onTap: _refreshHistory,
+        TextButton(
+          onPressed: _unlocking ? null : _refreshHistory,
           child: Row(
             children: [
               Text(
-                'Refresh',
+                _historyUnlocked ? 'Refresh' : 'Unlock',
                 style: Theme.of(context).textTheme.labelSmall?.copyWith(
                   color: AppColors.primaryMain,
                   fontSize: 13,
@@ -422,8 +318,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                 ),
               ),
               const SizedBox(width: 4),
-              const Icon(
-                Icons.refresh_rounded,
+              Icon(
+                _historyUnlocked ? Icons.refresh_rounded : Icons.lock_outline,
                 size: 16,
                 color: AppColors.primaryMain,
               ),
@@ -729,51 +625,22 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
 
   Widget _buildTipCard(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.fromLTRB(12, 12, 14, 12),
       decoration: BoxDecoration(
-        color: const Color(0xFFEAF6FB),
+        color: AppColors.bgCard,
         borderRadius: BorderRadius.circular(18),
-        border: Border.all(color: const Color(0xFFD2E9F3)),
+        border: Border.all(color: AppColors.border),
       ),
-      child: Row(
+      clipBehavior: Clip.antiAlias,
+      child: const ExpansionTile(
+        leading: Icon(Icons.checklist_rounded, color: AppColors.primaryMain),
+        title: Text('Before you scan'),
+        subtitle: Text('A quick photo and timing checklist'),
+        shape: Border(),
+        collapsedShape: Border(),
+        childrenPadding: EdgeInsets.fromLTRB(20, 0, 20, 18),
         children: [
-          Container(
-            width: 48,
-            height: 48,
-            decoration: const BoxDecoration(
-              color: Colors.white,
-              shape: BoxShape.circle,
-            ),
-            child: const Icon(
-              Icons.wb_sunny_outlined,
-              color: AppColors.primaryMain,
-              size: 24,
-            ),
-          ),
-          const SizedBox(width: 12),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  'Tip of the day',
-                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                    color: AppColors.primaryMain,
-                    fontSize: 15,
-                    fontWeight: FontWeight.w600,
-                  ),
-                ),
-                const SizedBox(height: 4),
-                Text(
-                  'Ensure good lighting and proper dipstick\nhandling for accurate results.',
-                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: AppColors.textSecondary,
-                    fontSize: 11,
-                    height: 1.2,
-                  ),
-                ),
-              ],
-            ),
+          Text(
+            'Show all ten pads and the handle on a plain background. Use even lighting without glare. Tap the pads to focus and hold steady. Record the actual time after dipping: pads have different reading times.',
           ),
         ],
       ),

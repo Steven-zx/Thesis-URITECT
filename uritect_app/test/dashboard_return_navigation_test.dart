@@ -157,9 +157,9 @@ void main() {
       expect(text.maxLines, isNull);
       expect(text.overflow, isNot(TextOverflow.ellipsis));
       expect(find.text('Negative'), findsNothing);
-      await tester.tap(find.text('Reference ranges'));
+      await tester.tap(find.text('Leukocytes'));
       await tester.pumpAndSettle();
-      expect(find.text('Negative'), findsOneWidget);
+      expect(find.text('Reference: Negative'), findsOneWidget);
       expect(tester.takeException(), isNull);
     },
   );

@@ -41,3 +41,9 @@ The owner source passed 148 Flutter tests, 52 Python tests and static analysis. 
 ## Typography build 1.5.14+31
 
 Poppins Bold headings, SemiBold sections and Regular body are bundled and registered offline. All 148 app tests and static analysis passed in the owner checkout; copied app files match the frozen source. Pipeline/classifier data are unchanged; the 52-test full pipeline result and 10-test clean subset result are prior-run evidence. See [the typography note](URITECT_POPPINS_TYPOGRAPHY_2026-10-12.md). This APK is not yet phone-tested; current pending evidence is bound to its checksum.
+
+## IT expert recommendation build 1.5.15+33
+
+Earlier quality rejection, milestone progress, streamlined dashboard and per-analyte detail drawers are implemented. The owner checkout passed 156 app tests and static analysis, plus the final five quality checks and two dashboard checks. Copied app files match the frozen inventory; the entire suite was not independently repeated in this small checkout. The same deployed classifier asset is retained. Three warm host runs each showed median 2386 ms before / 2141 ms after; this is not Android device latency. See [the implementation note](URITECT_IT_EXPERT_RECOMMENDATIONS_2026-10-12.md) and [benchmark](build/SCAN_LATENCY_BENCHMARK.json).
+
+Fill **Repository commit, release tag, or version reviewed** in [the review form](DEVELOPER_EVALUATION_REVIEW_FORM.md). Use `git rev-parse HEAD` for the exact source commit. Pending acceptance and professional reviews name this exact APK, but no phone pass or review signature is fabricated.

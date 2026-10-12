@@ -1,4 +1,4 @@
-# Statistical and expert content review packet — 1.5.14+31
+# Statistical and expert content review packet — 1.5.15+33
 
 Status: **prepared; all reviews pending**.
 Review the sealed source and exact release APK identified in [the current build record](CURRENT_EVALUATION_RELEASE.json).
@@ -132,3 +132,9 @@ Male study: [den Heijer et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC3481519
 model performance from content review. Culture-confirmed outcomes, predefined protocols and
 appropriate validation are required for calibration/discrimination claims.
 Current status is literature-derived, not locally clinically calibrated, and reviews are pending.
+
+## Reviewed source identity
+
+Repository commit, release tag, or version reviewed: ____________________
+
+Record this for each signed review in addition to the APK hash. Use [the developer evaluation form](DEVELOPER_EVALUATION_REVIEW_FORM.md); branch names alone can change. Existing review slots remain pending until actual evidence is supplied.
