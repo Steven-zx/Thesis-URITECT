@@ -1,19 +1,21 @@
 {
-  "app_version": "1.5.16+34",
+  "app_version": "1.5.17+35",
   "flutter_tests": {
-    "passed": 164,
-    "command": "flutter test --no-pub"
+    "passed": 176,
+    "command": "flutter test --no-pub --reporter expanded"
   },
   "static_analysis": {
     "result": "No issues found",
     "exit_code": 0
   },
-  "unchanged_core": "All existing assets/models/services verified byte-for-byte against pre-redesign guard",
-  "ui_review": "Real-font phone screenshots inspected: home, readings, summary, kidney follow-up. Small phone/180% text, unknown/duplicate timing, optional metadata, safe research-percent relocation, explicit unknown answers and saved-history research background locking tested.",
+  "unchanged_core": "All existing assets/models and analysis services match 1.5.16+34; history service and native sealing intentionally changed",
+  "ui_review": "Real-font phone readings and summary screenshots inspected; predictions with secondary reliability labels and teal responsive actions. Restored checklist edits and recalculation, preliminary invalid scan predictions, timing labels and reference-only legend tested.",
+  "history_verification": "Host tests: no-auth sealing, same-ID updates, authenticated merge, encrypted photo round trips, cancellation/tampering preservation, deletion journal and interrupted write recovery, duplicate-cache invalidation. Android Keystore authorization requires actual device acceptance.",
   "python_tests": {
-    "scope": "Classifier and feature pipeline unchanged; previous full run 52 passed. Release metadata tooling checked directly."
+    "scope": "Classifier, features and clinical model code unchanged; no new training or accuracy claim"
   },
-  "phone_acceptance": "pending; no device pass or installation for this APK",
+  "phone_acceptance": "pending; no installation or phone pass for this build",
   "previous_evaluator_scores_apply_to_this_build": false,
-  "independent_clinical_validation": "not established"
+  "independent_clinical_validation": "not established",
+  "color_swatches": "pending owner-supplied chart; category reference only; no classifier changes"
 }

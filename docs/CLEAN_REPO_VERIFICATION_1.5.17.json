@@ -1,0 +1,11 @@
+{
+  "app_version": "1.5.17+35",
+  "frozen_app_source_drift": [],
+  "owner_checkout_flutter_tests_passed": 176,
+  "owner_checkout_static_analysis": "No issues found",
+  "existing_assets_models_unchanged": true,
+  "history_service_and_native_sealing_changed": true,
+  "suite_repeated_in_clean_copy": false,
+  "phone_acceptance": "pending",
+  "prior_evaluation_scores_transferred": false
+}

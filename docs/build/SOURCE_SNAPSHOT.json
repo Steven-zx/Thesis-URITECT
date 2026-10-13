@@ -1,5 +1,5 @@
 {
-  "frozen_at": "2026-10-12T17:33:15.151581+00:00",
+  "frozen_at": "2026-10-13T09:30:11.586926+00:00",
   "scope": "App sources/assets/tests/tooling and locked build configuration; signing secrets excluded",
   "files": [
     {
@@ -29,8 +29,8 @@
     },
     {
       "path": "uritect_app/android/app/src/main/kotlin/com/example/uritect_app/HistorySecurity.kt",
-      "bytes": 11233,
-      "sha256": "529900175AE75E848C556DC8FD5E5E62F336FB5FF44F6002833A36F46EB1E334"
+      "bytes": 16706,
+      "sha256": "35DAE0316F18F6137C6F8C0091781CCC6EBC2506EBE8D542EE0693CAD5701E3D"
     },
     {
       "path": "uritect_app/android/app/src/main/kotlin/com/example/uritect_app/MainActivity.kt",
@@ -264,8 +264,8 @@
     },
     {
       "path": "uritect_app/lib/config/theme.dart",
-      "bytes": 2802,
-      "sha256": "37852D3860A48BB804E93AE4D37527D30548EC4C31A736C33E92A2C98E3DB3CF"
+      "bytes": 3627,
+      "sha256": "00E3657C37E455AB15B8574E4A0FB7CE90CC6834D188A24B2DAD1B1521EEEF30"
     },
     {
       "path": "uritect_app/lib/main.dart",
@@ -349,8 +349,8 @@
     },
     {
       "path": "uritect_app/lib/pages/capture_dipstick_page.dart",
-      "bytes": 23139,
-      "sha256": "593FAA083A92105E1A6947A3C6C58A1C3B0661389D8ADD5B162405FF0789B8CA"
+      "bytes": 23873,
+      "sha256": "A6C98C691A58B988BC63CFC7E7430CAFD47B63A025CE87C72F7C5FE6870AE735"
     },
     {
       "path": "uritect_app/lib/pages/dashboard_navigation.dart",
@@ -359,8 +359,8 @@
     },
     {
       "path": "uritect_app/lib/pages/home_page.dart",
-      "bytes": 20575,
-      "sha256": "4A61468AC0D986CD57FFB8F2E01873E5F8111C3C7936A4AFCEA31110CAF07423"
+      "bytes": 20577,
+      "sha256": "39CD8E947663BCC9DB381C86187366BB83B86FCE20396A241A0EC37FB0E5A93D"
     },
     {
       "path": "uritect_app/lib/pages/landing_page.dart",
@@ -369,8 +369,8 @@
     },
     {
       "path": "uritect_app/lib/pages/overall_results_page.dart",
-      "bytes": 24239,
-      "sha256": "F1BACD215DD412500F2879D0756C3F634F55571CA7B68298F7E4ABC1F7D85746"
+      "bytes": 26421,
+      "sha256": "72227476F8DC9D7E4C50DCBFB7E33B443C6BF93BA373B8FC712369B2D19F2684"
     },
     {
       "path": "uritect_app/lib/pages/performance_notes_page.dart",
@@ -389,8 +389,8 @@
     },
     {
       "path": "uritect_app/lib/pages/results_page.dart",
-      "bytes": 8815,
-      "sha256": "9C4AD95E9A9EFE081AF6CF07758FB6381C82C51A851C29EC2F112994939929EE"
+      "bytes": 8989,
+      "sha256": "2E07558AD6403195FDB45B8C8ACE53A37CD518BC86AF397DD92D71665A3F539A"
     },
     {
       "path": "uritect_app/lib/pages/root_page.dart",
@@ -399,8 +399,8 @@
     },
     {
       "path": "uritect_app/lib/pages/symptom_checklist_page.dart",
-      "bytes": 22219,
-      "sha256": "B1A7B20FBB002D7419961EA61E1E4856F8BF02CE51DE78BAF0D1103DF0068E25"
+      "bytes": 23174,
+      "sha256": "33D7B20800E8F7C2570BF894D0216928164296D52003104A96C707AB848E8E3C"
     },
     {
       "path": "uritect_app/lib/services/history_cipher.dart",
@@ -411,6 +411,11 @@
       "path": "uritect_app/lib/services/local_scan_analysis_service.dart",
       "bytes": 58807,
       "sha256": "9735BBD77A7E10985B82F9ECBD8F159CA8FA9B181012949F627BEE1010E6B52C"
+    },
+    {
+      "path": "uritect_app/lib/services/pending_scan_cipher.dart",
+      "bytes": 936,
+      "sha256": "19E3375148DF55E634DAA90ABE4D9C588A551C3512C4073C329159A35FC1A776"
     },
     {
       "path": "uritect_app/lib/services/photo_quality_check.dart",
@@ -429,8 +434,8 @@
     },
     {
       "path": "uritect_app/lib/services/scan_history_service.dart",
-      "bytes": 18601,
-      "sha256": "20E3A5E5FE36829CC9D88BD8E1337D26E7E114CEA4331B733566C510FB6EFAF9"
+      "bytes": 27451,
+      "sha256": "EF87A08E7B580EDB8E60B816FFE99C81E70A952F4CE22A2738D41070BC1FDB63"
     },
     {
       "path": "uritect_app/lib/services/scan_provenance_service.dart",
@@ -453,9 +458,14 @@
       "sha256": "02392C84CEA39F6F9E91676F2F9713E57F34AA76329AF78AC569904126F09D96"
     },
     {
+      "path": "uritect_app/lib/widgets/dataset_level_legend.dart",
+      "bytes": 2367,
+      "sha256": "C7E30852392AC7CC6AE557E1F0184FCCCBC423967AF357533DFB1F693F4CA495"
+    },
+    {
       "path": "uritect_app/lib/widgets/dipstick_results_table.dart",
-      "bytes": 3438,
-      "sha256": "26E14251F9ECBCD6570CCB18CDA6E6B7C74551A5BC8229496CA3905B0DF099F4"
+      "bytes": 4528,
+      "sha256": "BBB10FE28FCF441CC9582E68E715C1E543E836DDD9BBD81359DEE8B6C93EC7CC"
     },
     {
       "path": "uritect_app/lib/widgets/research_details.dart",
@@ -474,8 +484,8 @@
     },
     {
       "path": "uritect_app/lib/widgets/scan_provenance_dialog.dart",
-      "bytes": 6583,
-      "sha256": "17DCA4BF68E8383FD4CC0AEB147717695A66409E3B7476518DC4BB9805F95571"
+      "bytes": 6764,
+      "sha256": "A833C7393F3C034350AB621B14D1F80DF71BB0CA7CE756F623FDB04AE276DB72"
     },
     {
       "path": "uritect_app/lib/widgets/strip_analysis_animation.dart",
@@ -495,7 +505,7 @@
     {
       "path": "uritect_app/pubspec.yaml",
       "bytes": 2183,
-      "sha256": "C2FA2C05BFE7DDB07DF857D0258F3DD65B87D248C9E20807EEFBD6BE26C7FF4C"
+      "sha256": "78213391BC9F4E92D1DA8841DC44620E32F18C60C747E08C69C5CB5D9C7E42C2"
     },
     {
       "path": "uritect_app/test/bayesian_workflow_ui_test.dart",
@@ -508,9 +518,14 @@
       "sha256": "B515B4CD8F421F0A3CBF4F33322573355746FA5852F432AFB3A5AE0EF17F1531"
     },
     {
+      "path": "uritect_app/test/current_scan_workflow_test.dart",
+      "bytes": 8122,
+      "sha256": "90E9D1B0BAA415D743E4BE24E23879222E3EEBAE8CBF27DB3658A26D6F988871"
+    },
+    {
       "path": "uritect_app/test/dashboard_return_navigation_test.dart",
-      "bytes": 6493,
-      "sha256": "3ED440952034923E847B4B4F119369D0C6BD9F3936FA3D17D1FC10E14DA47247"
+      "bytes": 6526,
+      "sha256": "D3E5230DCD291AD0982E14E1477DA5A7D93CD079C86D66129E0B51BD6DE0D856"
     },
     {
       "path": "uritect_app/test/dashboard_ui_test.dart",
@@ -539,18 +554,18 @@
     },
     {
       "path": "uritect_app/test/goldens/bayesian_results_phone.png",
-      "bytes": 68221,
-      "sha256": "2815D3B2E13A89A535E8048E530CD35A125211CA9EB4786F90AAB4B050166DAA"
+      "bytes": 71512,
+      "sha256": "95BD3D14DF6870DB10DDA27A6B295C5DA2DA418E073357D70718079D4DC106F4"
     },
     {
       "path": "uritect_app/test/goldens/dashboard_phone.png",
-      "bytes": 60363,
-      "sha256": "CBC7C7BEC745E0A7C999DA9D95E04EBF03D25DB462A52E1E79319B58F8A99D4F"
+      "bytes": 61534,
+      "sha256": "284759B873779AD73C290C86E4429468E6E553AAF5D0B39D4234FF0519EE018F"
     },
     {
       "path": "uritect_app/test/goldens/dipstick_readings_phone.png",
-      "bytes": 46573,
-      "sha256": "BAA6D3E2FE8D71265B8BA63AA24C48B3034595665D8D60BDAAC3BACCE1D6ADF0"
+      "bytes": 49360,
+      "sha256": "418F014C650CE64D8DB273EB5DE3D55E38DD8364EBC70842DD61C68DFC8DEFA6"
     },
     {
       "path": "uritect_app/test/goldens/kidney_followup_phone.png",
@@ -598,6 +613,11 @@
       "sha256": "5ED2DE63169121D64F50F06B92E2DD1CA465BDB84E055AE6F252020410FC06D8"
     },
     {
+      "path": "uritect_app/test/pending_history_test.dart",
+      "bytes": 7051,
+      "sha256": "6CF46BFFEE8105A4BAD65763691A86B3031461568CDF0A29540EF1DCE414A515"
+    },
+    {
       "path": "uritect_app/test/photo_quality_check_test.dart",
       "bytes": 2197,
       "sha256": "F16EA86E3B22DC1ED3C48F43665B37463276CF909EF32329CE762A98BDA60A17"
@@ -619,8 +639,8 @@
     },
     {
       "path": "uritect_app/test/provisional_readings_test.dart",
-      "bytes": 4951,
-      "sha256": "CCB1633D532675E0DF93A8396B76271C4BB4B03B48B3B4277046E8A9CE9BE84F"
+      "bytes": 4960,
+      "sha256": "A7A16BBCA263627A868C64B7164C4E8D0D77B58B1A0BA223D97399852E7361D8"
     },
     {
       "path": "uritect_app/test/renal_followup_test.dart",
@@ -724,8 +744,8 @@
     }
   ],
   "archive": {
-    "path": "output/device_pilot/2026-10-13/1.5.16+34/URITECT_SOURCE_SNAPSHOT.zip",
-    "bytes": 6647554,
-    "sha256": "FEAAE251F963AAAB32014FA393B9961F61347BEBFB13B67BA4197BE6E8FA3E9A"
+    "path": "output/device_pilot/2026-10-13/1.5.17+35/URITECT_SOURCE_SNAPSHOT.zip",
+    "bytes": 6665350,
+    "sha256": "25109787BF689F0F63C99299C89EE412A91D4C2E815AA38A2DC006BACFFE6C48"
   }
 }

@@ -1,6 +1,6 @@
 # URITECT — developer evaluation
 
-Frozen Android research prototype **1.5.16+34**, package `ph.edu.wvsu.uritect`. Start with [the evaluation guide](docs/EVALUATION_GUIDE.md).
+Frozen Android research prototype **1.5.17+35**, package `ph.edu.wvsu.uritect`. Start with [the evaluation guide](docs/EVALUATION_GUIDE.md).
 
 - `uritect_app/`: frozen app source, locked dependencies, offline models/fonts and tests.
 - `pipeline/`: selected feature/schema helpers, tests and owner-artifact verification tooling.
@@ -8,7 +8,7 @@ Frozen Android research prototype **1.5.16+34**, package `ph.edu.wvsu.uritect`. 
 
 From `uritect_app`, run `flutter pub get`, `flutter analyze`, `flutter test`. For local installation use `flutter build apk --debug`. Owner signing keys are excluded; distribute the signed APK separately with [its checksum](docs/build/SHA256SUMS.txt).
 
-The current version implements [the user-friendly UI redesign](docs/URITECT_UI_SIMPLIFICATION_2026-10-13.md). Research-only values and technical explanations are optional; timing, eligibility, confidence, serious-symptom and history-security safeguards remain intact.
+The current version restores visible model predictions with secondary reliability labels, adds prompt-free sealed scan saving, populated checklist editing, consistent teal actions and a category reference legend. Read [the implementation and acceptance note](docs/URITECT_CURRENT_SCAN_WORKFLOW_2026-10-13.md). Timing, eligibility, confidence and serious-symptom gates remain intact; saved-history reads still require authentication.
 
 Please complete [the review form](docs/DEVELOPER_EVALUATION_REVIEW_FORM.md), including **Repository commit, release tag, or version reviewed**. Previous-version ratings do not automatically evaluate this redesign.
 
