@@ -2,21 +2,36 @@
   "version": "1.5.17+35",
   "frozen_app_files_verified": 148,
   "pipeline_modules": [
+    "audit_abnormal_detection",
+    "audit_legacy_dataset",
+    "audit_unpacked_references",
     "build_final_release_manifest",
+    "build_training_support_policy",
+    "clean_cabatuan_dataset",
+    "evaluate_legacy_expansion",
+    "export_production_model_json",
+    "finalize_legacy_runtime_audit",
     "focused_pad_geometry",
+    "freeze_production_semiquant",
     "generate_current_evidence_records",
+    "improve_direction_verified_knn",
     "markerless_strip",
+    "model_features",
+    "prepare_legacy_runtime_audit",
     "runtime_pad_features",
     "seal_evaluation_build",
     "semiquant_schema",
     "specimen_grouping",
     "test_final_pad_order",
     "test_focused_pad_audit",
+    "test_legacy_dataset_audit",
     "test_strip_reading_schedule",
     "verify_current_evidence",
     "verify_final_release_manifest",
+    "verify_legacy_sources",
     "verify_release_acceptance",
-    "vision_pipeline"
+    "vision_pipeline",
+    "write_legacy_audit_report"
   ],
   "raw_research_data_included": false,
   "signing_secrets_included": false,
@@ -27,11 +42,15 @@
     },
     {
       "path": ".gitignore",
-      "sha256": "f42277362d4a1eb583282014e405fbf2905fc953ad0f1a040e6a10ad50e566ea"
+      "sha256": "16186666b4d853c8566c906958c5f3a09be5013d55093a59370df17b979b038c"
     },
     {
       "path": "README.md",
-      "sha256": "d9a2fb1594a58330e9f823b1ea773108c425de9c46f18b1531f237bad3ba17ff"
+      "sha256": "9b150fbf326f618ccae58b657f2fc5abca0ee2d4054536d16f36d45e06da67e4"
+    },
+    {
+      "path": "docs/CLEAN_REPO_AUDIT_UPDATE_VERIFICATION_2026-10-13.json",
+      "sha256": "e9310c36498a051793755c6b8556e0342127205e4bd92b3fb8798d223fb4cf0f"
     },
     {
       "path": "docs/CLEAN_REPO_VERIFICATION.json",
@@ -59,7 +78,7 @@
     },
     {
       "path": "docs/CURRENT_EVALUATION_RELEASE.json",
-      "sha256": "49d27e700b5701478666ba0074ec7ce5377a6b06eb64c4afc775807ac323b6b0"
+      "sha256": "d413f8438dec57d57708395e973a9d003cc2b607ca3c3721cda475e40becb02a"
     },
     {
       "path": "docs/DEVELOPER_EVALUATION_REVIEW_FORM.md",
@@ -67,19 +86,27 @@
     },
     {
       "path": "docs/EVALUATION_GUIDE.md",
-      "sha256": "dd6ff8ffc4f468bc80ad416da9514220b19f98dd974c2fcc858881562fbf38a9"
+      "sha256": "b7c9984c4c1f017aa71bd9937706723f92dc1b2c39d842f48b20b04a3d711a74"
     },
     {
       "path": "docs/MANUSCRIPT_FINAL_REVISION_GUIDE.md",
       "sha256": "f5cddfdc530d5994438ce98c834e60d3c1dbcd7d07e72dd8aac4aa2be5a7932c"
     },
     {
+      "path": "docs/URITECT_CORRECTED_BASELINE_FIVE_METRICS_2026-10-13.md",
+      "sha256": "eaf800d77f5c157ffc0b1061cf4c0270c93db2b4c2c1f40cb2488382888d3fe2"
+    },
+    {
       "path": "docs/URITECT_CURRENT_ACCEPTANCE_RECORD.json",
-      "sha256": "49258abf0825061a79efd58038db1e8f1faa9e3eba1a5d2bb8f79e05b969c201"
+      "sha256": "a80dc28d5a9b64a65cb8ae698d92d2b1938ae114c5d36cf6685c70f893f964e2"
     },
     {
       "path": "docs/URITECT_CURRENT_SCAN_WORKFLOW_2026-10-13.md",
       "sha256": "6c506142d582a69999837d69b82a6e4e866a0767888f971862455d7dcc216081"
+    },
+    {
+      "path": "docs/URITECT_DEVELOPER_EVALUATION_RELEASE_BRIEF_2026-10-13.md",
+      "sha256": "79a84744cc61405dc9e9d105669a91b426edcdce55c101f96309fa11106730fe"
     },
     {
       "path": "docs/URITECT_EVALUATION_DEVICE_CHECKLIST.csv",
@@ -158,6 +185,10 @@
       "sha256": "593bbd0ae7812533cec56b957dc40de257fae7a44b60981246628f728a8287b8"
     },
     {
+      "path": "docs/build/INSTALLATION.json",
+      "sha256": "2e15303b4e21d82ce54fc24f7e6f5a4d640f2ac4507f003d38ad3dd2f66832bb"
+    },
+    {
       "path": "docs/build/SCAN_LATENCY_BENCHMARK.json",
       "sha256": "4e5e09a446f7ba65b945ec0e1511028d6430e711c49aff2469e08697b43cb2f8"
     },
@@ -178,6 +209,10 @@
       "sha256": "7624c762496d613596f18060dd4a197280ec246bbb9038f0151a12c482f5b275"
     },
     {
+      "path": "docs/performance/CORRECTED_BASELINE_CONFIRMATION_RESULTS.json",
+      "sha256": "25df115a9bdf254c94333fd93e07246b0dfd0cc85668c036cf154b9116e4fe00"
+    },
+    {
       "path": "docs/performance/GROUPED_EXPERIMENT.md",
       "sha256": "c79c83eb778f5b44fe00c0a127834e97a21ef50217a0af5be566f0caddcc2c57"
     },
@@ -190,24 +225,112 @@
       "sha256": "33289ec68cfbe35ab5221432f3f5eb33c55cd48fb59582ffef23c6fa89063577"
     },
     {
+      "path": "docs/performance/legacy_dataset_audit_2026-10-13/ANALYSIS_PLAN.json",
+      "sha256": "fb39e3b5aa7326e2fbdc72c8d5053b2a63706d3d7798ba18b5ad3784bb8a921b"
+    },
+    {
+      "path": "docs/performance/legacy_dataset_audit_2026-10-13/DEVELOPMENT_COMPARISON.json",
+      "sha256": "5d8c18b5ab4f422cb5691d0d09ed8dbea25a9928ef9d7f71e4b0cdb89bcb864f"
+    },
+    {
+      "path": "docs/performance/legacy_dataset_audit_2026-10-13/FINAL_SUMMARY.json",
+      "sha256": "8eef78d956120c10413bad0cded182c440a99a7aa8b6aeb31044b216f153c16c"
+    },
+    {
+      "path": "docs/performance/legacy_dataset_audit_2026-10-13/FIVE_METRICS.csv",
+      "sha256": "5ca4b687e4e765532440f6573e39b054eff306af03d08795607fe65d85cf7eb2"
+    },
+    {
+      "path": "docs/performance/legacy_dataset_audit_2026-10-13/LABEL_SOURCE_REVIEW.md",
+      "sha256": "eaa72fed185147743d4a1ea7edbc12db75ee443361dbae64e5b554d73139cb78"
+    },
+    {
+      "path": "docs/performance/legacy_dataset_audit_2026-10-13/README.md",
+      "sha256": "fe7ddc9ec992b33942c5fdd124cfafc4e672ecbb8f0e095a7fb0f097efbafde5"
+    },
+    {
+      "path": "docs/performance/legacy_dataset_audit_2026-10-13/REPORT.md",
+      "sha256": "cfe3469c1c3958376cf64d50616faabde43d8282a08646adff8819c6234dcc15"
+    },
+    {
+      "path": "docs/performance/legacy_dataset_audit_2026-10-13/SOURCE_INTEGRITY.json",
+      "sha256": "28dafac58ce74228456c2c36bdd0c888fad14219d6ec0cc7c801c2c98fbf7da5"
+    },
+    {
+      "path": "docs/performance/legacy_dataset_audit_2026-10-13/UNPACKED_SUMMARY.json",
+      "sha256": "4967611187a97758650db9eb4dc40bc497026c0e9120edfa0d3a793817d441e9"
+    },
+    {
+      "path": "docs/performance/legacy_dataset_audit_2026-10-13/VERIFICATION.json",
+      "sha256": "d26e23cc6f0f1f97d94291a20f4d89724e4780ae0bb3b541683e6cd783f699cc"
+    },
+    {
+      "path": "pipeline/audit_abnormal_detection.py",
+      "sha256": "198ca5541aa9d3bc3094f86e697d886cda007577776657294c152400b33f741f"
+    },
+    {
+      "path": "pipeline/audit_legacy_dataset.py",
+      "sha256": "722d3d48c836ce0d4ee18950470cd0c762c5863bd0504b9423b9555becdf3df0"
+    },
+    {
+      "path": "pipeline/audit_unpacked_references.py",
+      "sha256": "8b0a0cf7954b44dcbfec0a299ede73139f1b789dfe22ab1d05ca1100750ff5e4"
+    },
+    {
       "path": "pipeline/build_final_release_manifest.py",
       "sha256": "6532113246a7e236458b9100bc8d6b29b4de4c45e0431e8ca95228181442e048"
+    },
+    {
+      "path": "pipeline/build_training_support_policy.py",
+      "sha256": "8c4a410441408d2b95e06919825aaedf90ee8922f33cfe844e0738a109c0707d"
+    },
+    {
+      "path": "pipeline/clean_cabatuan_dataset.py",
+      "sha256": "f448c23f58e705f33d508b1d2764a6ef72a8035a21bb3725765266e7a6e8a42c"
+    },
+    {
+      "path": "pipeline/evaluate_legacy_expansion.py",
+      "sha256": "f053c2df651a9df2a8730d76cb36f7e0fcbce973737c44ee679c02ce043556ac"
+    },
+    {
+      "path": "pipeline/export_production_model_json.py",
+      "sha256": "9b3d4a9deb89f6d34536a2469e548089e0323e4fab5beb80b2c2d07bf7f88204"
+    },
+    {
+      "path": "pipeline/finalize_legacy_runtime_audit.py",
+      "sha256": "d295637e7b892da759e850c270f4114e7cedf75c316b7e5acc9a80d0f0749446"
     },
     {
       "path": "pipeline/focused_pad_geometry.py",
       "sha256": "4305afc466df718c51d89c62cb056369f9bee30f066faeb8d9ca19373107569d"
     },
     {
+      "path": "pipeline/freeze_production_semiquant.py",
+      "sha256": "4446064a744ccc407ea41caf0c277b1645d8f3bc000f524762a707404e90dace"
+    },
+    {
       "path": "pipeline/generate_current_evidence_records.py",
       "sha256": "ffa0454ac17bfb6c8040084e4a560706c49e899e51eb7866c261888b2b41b5f8"
+    },
+    {
+      "path": "pipeline/improve_direction_verified_knn.py",
+      "sha256": "12d97110c42993cbbca41bb4128f90f2c8fbac8f0c5b6f299a8dd5b11093f36f"
     },
     {
       "path": "pipeline/markerless_strip.py",
       "sha256": "f1ae3eea337eb1f201bdc621b64028c4769ac9838f298266a4f7a5a7ba2ae5ce"
     },
     {
+      "path": "pipeline/model_features.py",
+      "sha256": "32e362372d73182cce7137a1ac91c49a3759976bcbff8fd107099c1c36676704"
+    },
+    {
+      "path": "pipeline/prepare_legacy_runtime_audit.py",
+      "sha256": "bc71da881a61f8dae296112e5eb02421554e20b2e1acff310a64db9aad5092f1"
+    },
+    {
       "path": "pipeline/requirements.txt",
-      "sha256": "24a85634fe304be980f9339d3575f402436456515eaaaa0bfba269b1c796feae"
+      "sha256": "81eecec09aee0f9879bae34056e3b593d5809d93cbe4b7ad7a1eabbb8dff53fa"
     },
     {
       "path": "pipeline/runtime_pad_features.py",
@@ -234,6 +357,10 @@
       "sha256": "c0d38f87b75e26482cac6138033e90c595ea4e3b8159ecb03698514ce42ec6bb"
     },
     {
+      "path": "pipeline/test_legacy_dataset_audit.py",
+      "sha256": "1af3fe835dc62d9cf0a29af2d51763cd7d27a7a1a1192c797eb5f4bb26c44f69"
+    },
+    {
       "path": "pipeline/test_strip_reading_schedule.py",
       "sha256": "904bc9a443475a4260d43d21d72cb84a559f7dcc88d8accbc3dfac9b462c5192"
     },
@@ -246,12 +373,20 @@
       "sha256": "da615715d166ea31cd4d19e1ff7bdf199d793f732e1e964d7c482b87df6ec265"
     },
     {
+      "path": "pipeline/verify_legacy_sources.py",
+      "sha256": "368b489933b45c384d742cabbaea447c3ae01937adec8d51e0df6267074fe74b"
+    },
+    {
       "path": "pipeline/verify_release_acceptance.py",
       "sha256": "f81d8a4c645f093e70149cbb960d3c806c6ee370e558ede161791a722c7f0e0b"
     },
     {
       "path": "pipeline/vision_pipeline.py",
       "sha256": "8d175be7684e6918ea9eedefc0d2dc1707ff345cf18cd50cb6cc619c5c890cf5"
+    },
+    {
+      "path": "pipeline/write_legacy_audit_report.py",
+      "sha256": "c1b49cb92ec6b24285b755e2ffa68bb7e18aa11d1c362d4460847932431d9295"
     },
     {
       "path": "uritect_app/analysis_options.yaml",
@@ -845,5 +980,8 @@
       "path": "uritect_app/tool/support_scan_regression_test.dart",
       "sha256": "561c0d80b2dc09861e622bb9674b616d0b151f3441ac8ee11a58ed676cd3340f"
     }
-  ]
+  ],
+  "supplemental_evidence_date": "2026-10-13",
+  "supplemental_evidence": "docs/performance/legacy_dataset_audit_2026-10-13/REPORT.md",
+  "app_or_classifier_changed": false
 }

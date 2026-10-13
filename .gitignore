@@ -18,3 +18,8 @@ uritect_app/**/build/
 pipeline/dataset/
 pipeline/output/
 .DS_Store
+
+# Private owner artifacts and generated audit harnesses.
+new_uritect_dataset/
+tmp/
+output/

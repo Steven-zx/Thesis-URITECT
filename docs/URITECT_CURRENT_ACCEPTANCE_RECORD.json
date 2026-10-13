@@ -11,7 +11,7 @@
       "test_date": null,
       "tester": null,
       "apk_sha256": "41B3EDC2745F7447BD55A2A5A5DF9D85978C914D2FFC3CB8481547E279494341",
-      "connection_status": "not_connected",
+      "connection_status": "not_rechecked_during_repository_update",
       "cases": [
         {
           "id": "STARTUP",
@@ -288,7 +288,8 @@
       ],
       "scan_latency_seconds": [],
       "crashes": null,
-      "hangs": null
+      "hangs": null,
+      "installation_status": "installed_version_verified_RMX3933"
     },
     {
       "device_id": "phone_2",
@@ -698,5 +699,7 @@
   "clinical_outcome_study": {
     "status": "not_performed",
     "evidence": []
-  }
+  },
+  "installation_record": "docs/build/INSTALLATION.json",
+  "installation_is_workflow_acceptance": false
 }

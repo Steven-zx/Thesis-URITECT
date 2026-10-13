@@ -38,5 +38,12 @@
   "gap_response": "docs/URITECT_EVIDENCE_GAP_REMEDIATION_2026-10-12.md",
   "historical_manifest": "output/release/URITECT_FINAL_RELEASE_MANIFEST.json",
   "historical_manifest_is_current": false,
-  "note": "Byte/hash identity is verified, not byte-for-byte reproducible rebuilds or clinical validity."
+  "note": "Byte/hash identity is verified, not byte-for-byte reproducible rebuilds or clinical validity.",
+  "supplemental_evaluation_evidence": {
+    "legacy_audit": "docs/performance/legacy_dataset_audit_2026-10-13/REPORT.md",
+    "corrected_five_metrics": "docs/URITECT_CORRECTED_BASELINE_FIVE_METRICS_2026-10-13.md",
+    "installation": "docs/build/INSTALLATION.json",
+    "app_model_or_APK_changed": false,
+    "binary_values_modified": false
+  }
 }

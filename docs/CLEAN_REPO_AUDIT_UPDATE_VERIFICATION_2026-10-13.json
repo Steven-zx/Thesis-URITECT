@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-13",
+  "app_version": "1.5.17+35",
+  "app_frozen_source_files_verified": 148,
+  "app_source_drift": [],
+  "clean_checkout_python_tests_passed": 17,
+  "owner_full_pipeline_tests_passed": 59,
+  "owner_flutter_tests_passed": 176,
+  "flutter_suite_repeated_for_documentation_only_update": false,
+  "app_model_or_APK_changed": false,
+  "owner_audit_evidence": "docs/performance/legacy_dataset_audit_2026-10-13/VERIFICATION.json",
+  "private_photos_manifests_and_features_included": false,
+  "binary_values_modified": false,
+  "evaluator_portability_adjustments": [
+    "audit_legacy_dataset.py: derive default original-data root from reviewer home",
+    "prepare_legacy_runtime_audit.py: create generated harness directory"
+  ],
+  "clinical_validation_established": false
+}

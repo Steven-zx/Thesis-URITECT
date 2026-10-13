@@ -13,3 +13,9 @@ The current version restores visible model predictions with secondary reliabilit
 Please complete [the review form](docs/DEVELOPER_EVALUATION_REVIEW_FORM.md), including **Repository commit, release tag, or version reviewed**. Previous-version ratings do not automatically evaluate this redesign.
 
 Raw research datasets, patient history, signing credentials, SDK paths, caches and binaries are excluded. Existing deidentified regression fixtures are included for app tests. Dataset-dependent reproductions require separately authorized access. This research prototype has no established clinical calibration; no project license is granted by this evaluation package. Agree distribution and contribution terms with the owner.
+
+## Latest evaluator evidence: 13 October 2026
+
+The app remains **1.5.17+35**. This repository update adds the [release brief](docs/URITECT_DEVELOPER_EVALUATION_RELEASE_BRIEF_2026-10-13.md), [corrected-baseline five-metric results](docs/URITECT_CORRECTED_BASELINE_FIVE_METRICS_2026-10-13.md), and [completed legacy-data audit](docs/performance/legacy_dataset_audit_2026-10-13/REPORT.md), with its tools and dependency closure. Of 2,028 unique images, 210 qualified for the versioned pool, including six legacy RHU photos. No candidate met the promotion criteria, so the classifier, clinical gates and APK are unchanged. Raw photos, per-photo manifests and cleaned feature rows remain private.
+
+Record the **current repository commit** using `git rev-parse HEAD` alongside app version **1.5.17+35**. The app source was frozen at earlier commit `7c8361a`; this documentation/tools update has its own commit. APK installation on RMX3933 is [recorded](docs/build/INSTALLATION.json); complete device workflow acceptance remains pending.
